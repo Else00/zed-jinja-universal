@@ -1,0 +1,4 @@
+name = "Diff-Jinja"
+grammar = "jinja2"
+path_suffixes = ["diff.jinja", "diff.jinja2", "diff.j2", "patch.jinja", "patch.jinja2", "patch.j2"]
+block_comment = ["{#", "#}"]

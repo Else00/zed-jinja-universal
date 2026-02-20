@@ -1,0 +1,4 @@
+name = "$name-Jinja"
+grammar = "jinja2"
+path_suffixes = [$suffixes]
+block_comment = ["{#", "#}"]

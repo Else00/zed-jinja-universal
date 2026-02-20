@@ -1,0 +1,4 @@
+name = "VHDL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["vhd.jinja", "vhd.jinja2", "vhd.j2", "vhdl.jinja", "vhdl.jinja2", "vhdl.j2"]
+block_comment = ["{#", "#}"]

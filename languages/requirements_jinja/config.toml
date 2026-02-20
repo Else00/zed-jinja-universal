@@ -1,0 +1,4 @@
+name = "Python requirements-Jinja"
+grammar = "jinja2"
+path_suffixes = ["requirements.txt.jinja", "requirements.txt.jinja2", "requirements.txt.j2"]
+block_comment = ["{#", "#}"]

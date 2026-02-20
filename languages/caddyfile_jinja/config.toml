@@ -1,0 +1,4 @@
+name = "Caddyfile-Jinja"
+grammar = "jinja2"
+path_suffixes = ["Caddyfile.jinja", "Caddyfile.jinja2", "Caddyfile.j2", "caddyfile.jinja", "caddyfile.jinja2", "caddyfile.j2"]
+block_comment = ["{#", "#}"]

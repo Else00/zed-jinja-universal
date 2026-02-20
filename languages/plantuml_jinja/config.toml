@@ -1,0 +1,4 @@
+name = "PlantUML-Jinja"
+grammar = "jinja2"
+path_suffixes = ["iuml.jinja", "iuml.jinja2", "iuml.j2", "plantuml.jinja", "plantuml.jinja2", "plantuml.j2", "pu.jinja", "pu.jinja2", "pu.j2", "puml.jinja", "puml.jinja2", "puml.j2", "wsd.jinja", "wsd.jinja2", "wsd.j2"]
+block_comment = ["{#", "#}"]

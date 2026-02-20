@@ -1,0 +1,4 @@
+name = "Handlebars-Jinja"
+grammar = "jinja2"
+path_suffixes = ["handlebars.jinja", "handlebars.jinja2", "handlebars.j2", "hbs.jinja", "hbs.jinja2", "hbs.j2"]
+block_comment = ["{#", "#}"]

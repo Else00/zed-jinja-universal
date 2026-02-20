@@ -1,0 +1,4 @@
+name = "Scala-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mill.jinja", "mill.jinja2", "mill.j2", "sbt.jinja", "sbt.jinja2", "sbt.j2", "sc.jinja", "sc.jinja2", "sc.j2", "scala.jinja", "scala.jinja2", "scala.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Clarity-Jinja"
+grammar = "jinja2"
+path_suffixes = ["clar.jinja", "clar.jinja2", "clar.j2"]
+block_comment = ["{#", "#}"]

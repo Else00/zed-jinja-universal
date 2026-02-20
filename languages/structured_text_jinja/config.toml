@@ -1,0 +1,4 @@
+name = "Structured Text-Jinja"
+grammar = "jinja2"
+path_suffixes = ["st.jinja", "st.jinja2", "st.j2", "stx.jinja", "stx.jinja2", "stx.j2"]
+block_comment = ["{#", "#}"]

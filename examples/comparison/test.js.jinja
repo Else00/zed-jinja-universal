@@ -1,0 +1,44 @@
+// === PURE JAVASCRIPT (no jinja) ===
+const API_URL = "https://api.example.com";
+
+class UserService {
+    constructor(baseUrl) {
+        this.baseUrl = baseUrl;
+        this.cache = new Map();
+    }
+
+    async fetchUser(id) {
+        if (this.cache.has(id)) {
+            return this.cache.get(id);
+        }
+        const response = await fetch(`${this.baseUrl}/users/${id}`);
+        const user = await response.json();
+        this.cache.set(id, user);
+        return user;
+    }
+}
+
+function formatDate(date) {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(date).toLocaleDateString('en-US', options);
+}
+
+// === WITH JINJA ===
+const {{ variable_name }} = {{ default_value }};
+
+{% if use_class %}
+class {{ class_name }} {
+    constructor({% for arg in args %}{{ arg }}{{ ", " if not loop.last }}{% endfor %}) {
+        {% for arg in args %}
+        this.{{ arg }} = {{ arg }};
+        {% endfor %}
+    }
+}
+{% endif %}
+
+function {{ function_name }}({{ params | join(', ') }}) {
+    {% if use_strict %}
+    "use strict";
+    {% endif %}
+    return {{ return_value }};
+}

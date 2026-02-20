@@ -1,0 +1,4 @@
+name = "Ledger-Jinja"
+grammar = "jinja2"
+path_suffixes = ["journal.jinja", "journal.jinja2", "journal.j2", "ldg.jinja", "ldg.jinja2", "ldg.j2", "ldgr.jinja", "ldgr.jinja2", "ldgr.j2", "ledger.jinja", "ledger.jinja2", "ledger.j2"]
+block_comment = ["{#", "#}"]

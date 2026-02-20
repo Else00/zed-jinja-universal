@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ lang | default('en') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    {% if stylesheets %}
+    {% for css in stylesheets %}
+    <link rel="stylesheet" href="{{ css }}">
+    {% endfor %}
+    {% endif %}
+</head>
+<body>
+    <h1>{{ heading }}</h1>
+    {% block content %}
+    <p>{{ content }}</p>
+    {% endblock %}
+
+    {% for item in items %}
+    <div class="item">{{ item.name }}: {{ item.value }}</div>
+    {% endfor %}
+</body>
+</html>

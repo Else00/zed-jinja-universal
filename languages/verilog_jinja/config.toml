@@ -1,0 +1,4 @@
+name = "Verilog-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sv.jinja", "sv.jinja2", "sv.j2", "svh.jinja", "svh.jinja2", "svh.j2", "v.jinja", "v.jinja2", "v.j2", "vh.jinja", "vh.jinja2", "vh.j2"]
+block_comment = ["{#", "#}"]

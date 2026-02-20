@@ -1,0 +1,4 @@
+name = "Prisma-Jinja"
+grammar = "jinja2"
+path_suffixes = ["prisma.jinja", "prisma.jinja2", "prisma.j2"]
+block_comment = ["{#", "#}"]

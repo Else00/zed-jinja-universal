@@ -1,0 +1,4 @@
+name = "RPM Spec-Jinja"
+grammar = "jinja2"
+path_suffixes = ["spec.jinja", "spec.jinja2", "spec.j2"]
+block_comment = ["{#", "#}"]

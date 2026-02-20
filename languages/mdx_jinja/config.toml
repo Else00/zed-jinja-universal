@@ -1,0 +1,4 @@
+name = "MDX-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mdx.jinja", "mdx.jinja2", "mdx.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Perl-Jinja"
+grammar = "jinja2"
+path_suffixes = ["pl.jinja", "pl.jinja2", "pl.j2", "pm.jinja", "pm.jinja2", "pm.j2", "t.jinja", "t.jinja2", "t.j2"]
+block_comment = ["{#", "#}"]

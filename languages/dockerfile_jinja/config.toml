@@ -1,0 +1,4 @@
+name = "Dockerfile-Jinja"
+grammar = "jinja2"
+path_suffixes = ["Containerfile.jinja", "Containerfile.jinja2", "Containerfile.j2", "Dockerfile.jinja", "Dockerfile.jinja2", "Dockerfile.j2", "dockerfile.jinja", "dockerfile.jinja2", "dockerfile.j2"]
+block_comment = ["{#", "#}"]

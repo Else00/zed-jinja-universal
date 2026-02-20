@@ -1,0 +1,4 @@
+name = "CMake-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cmake.jinja", "cmake.jinja2", "cmake.j2"]
+block_comment = ["{#", "#}"]

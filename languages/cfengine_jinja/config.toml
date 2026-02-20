@@ -1,0 +1,4 @@
+name = "CFEngine-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cf.jinja", "cf.jinja2", "cf.j2", "cf.sub.jinja", "cf.sub.jinja2", "cf.sub.j2", "cf3.jinja", "cf3.jinja2", "cf3.j2", "cfengine.jinja", "cfengine.jinja2", "cfengine.j2", "cfengine3.jinja", "cfengine3.jinja2", "cfengine3.j2"]
+block_comment = ["{#", "#}"]

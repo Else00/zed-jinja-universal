@@ -1,0 +1,4 @@
+name = "Textproto-Jinja"
+grammar = "jinja2"
+path_suffixes = ["pbtxt.jinja", "pbtxt.jinja2", "pbtxt.j2", "textpb.jinja", "textpb.jinja2", "textpb.j2", "textproto.jinja", "textproto.jinja2", "textproto.j2", "txtpb.jinja", "txtpb.jinja2", "txtpb.j2"]
+block_comment = ["{#", "#}"]

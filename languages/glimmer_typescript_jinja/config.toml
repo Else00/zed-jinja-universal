@@ -1,0 +1,4 @@
+name = "Glimmer (TypeScript)-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gts.jinja", "gts.jinja2", "gts.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "RCL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["rcl.jinja", "rcl.jinja2", "rcl.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "ion_schema-Jinja"
+grammar = "jinja2"
+path_suffixes = ["isl.jinja", "isl.jinja2", "isl.j2"]
+block_comment = ["{#", "#}"]

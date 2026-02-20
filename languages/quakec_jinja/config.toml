@@ -1,0 +1,4 @@
+name = "QuakeC-Jinja"
+grammar = "jinja2"
+path_suffixes = ["qc.jinja", "qc.jinja2", "qc.j2"]
+block_comment = ["{#", "#}"]

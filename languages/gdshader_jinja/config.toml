@@ -1,0 +1,4 @@
+name = "GDShader-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gdshader.jinja", "gdshader.jinja2", "gdshader.j2", "gdshaderinc.jinja", "gdshaderinc.jinja2", "gdshaderinc.j2"]
+block_comment = ["{#", "#}"]

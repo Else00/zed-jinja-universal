@@ -1,0 +1,4 @@
+name = "CSV-Jinja"
+grammar = "jinja2"
+path_suffixes = ["csv.jinja", "csv.jinja2", "csv.j2"]
+block_comment = ["{#", "#}"]

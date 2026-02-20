@@ -1,0 +1,4 @@
+name = "Bend-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bend.jinja", "bend.jinja2", "bend.j2"]
+block_comment = ["{#", "#}"]

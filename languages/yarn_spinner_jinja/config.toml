@@ -1,0 +1,4 @@
+name = "Yarn Spinner-Jinja"
+grammar = "jinja2"
+path_suffixes = ["yarn.jinja", "yarn.jinja2", "yarn.j2"]
+block_comment = ["{#", "#}"]

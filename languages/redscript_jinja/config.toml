@@ -1,0 +1,4 @@
+name = "REDscript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["reds.jinja", "reds.jinja2", "reds.j2"]
+block_comment = ["{#", "#}"]

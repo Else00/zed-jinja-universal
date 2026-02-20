@@ -1,0 +1,4 @@
+name = "Nim Format String-Jinja"
+grammar = "jinja2"
+path_suffixes = ["nim_format_string.jinja", "nim_format_string.jinja2", "nim_format_string.j2"]
+block_comment = ["{#", "#}"]

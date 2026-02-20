@@ -1,0 +1,4 @@
+name = "Pascal-Jinja"
+grammar = "jinja2"
+path_suffixes = ["dpr.jinja", "dpr.jinja2", "dpr.j2", "inc.jinja", "inc.jinja2", "inc.j2", "lpr.jinja", "lpr.jinja2", "lpr.j2", "p.jinja", "p.jinja2", "p.j2", "pas.jinja", "pas.jinja2", "pas.j2", "pp.jinja", "pp.jinja2", "pp.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Cpp2-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cpp2.jinja", "cpp2.jinja2", "cpp2.j2", "h2.jinja", "h2.jinja2", "h2.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,17 @@
+// {{ description }}
+
+interface {{ interface_name }} {
+    {% for field in fields %}
+    {{ field.name }}: {{ field.type }};
+    {% endfor %}
+}
+
+const {{ variable_name }}: {{ interface_name }} = {{ default_value }};
+
+export function {{ function_name }}(): {{ interface_name }} {
+    {% if use_async %}
+    return Promise.resolve({{ variable_name }});
+    {% else %}
+    return {{ variable_name }};
+    {% endif %}
+}

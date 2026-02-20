@@ -1,0 +1,4 @@
+name = "Ada-Jinja"
+grammar = "jinja2"
+path_suffixes = ["adb.jinja", "adb.jinja2", "adb.j2", "ads.jinja", "ads.jinja2", "ads.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,18 @@
+// {{ description }}
+package {{ package_name }};
+
+{% for import in imports %}
+import {{ import }};
+{% endfor %}
+
+public class {{ class_name }} {
+    {% for field in fields %}
+    private {{ field.type }} {{ field.name }};
+    {% endfor %}
+
+    public {{ class_name }}() {
+        {% for field in fields %}
+        this.{{ field.name }} = {{ field.default }};
+        {% endfor %}
+    }
+}

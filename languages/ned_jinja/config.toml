@@ -1,0 +1,4 @@
+name = "OMNeT++ NED-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ned.jinja", "ned.jinja2", "ned.j2"]
+block_comment = ["{#", "#}"]

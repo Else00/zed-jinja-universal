@@ -1,0 +1,4 @@
+name = "LaTeX-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cls.jinja", "cls.jinja2", "cls.j2", "dtx.jinja", "dtx.jinja2", "dtx.j2", "ins.jinja", "ins.jinja2", "ins.j2", "latex.jinja", "latex.jinja2", "latex.j2", "sty.jinja", "sty.jinja2", "sty.j2", "tex.jinja", "tex.jinja2", "tex.j2"]
+block_comment = ["{#", "#}"]

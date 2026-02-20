@@ -1,0 +1,4 @@
+name = "Typespec-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tsp.jinja", "tsp.jinja2", "tsp.j2", "typespec.jinja", "typespec.jinja2", "typespec.j2"]
+block_comment = ["{#", "#}"]

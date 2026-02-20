@@ -1,0 +1,4 @@
+name = "ViewTree ($mol)-Jinja"
+grammar = "jinja2"
+path_suffixes = ["view.tree.jinja", "view.tree.jinja2", "view.tree.j2"]
+block_comment = ["{#", "#}"]

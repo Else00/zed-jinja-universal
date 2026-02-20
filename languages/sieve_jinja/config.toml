@@ -1,0 +1,4 @@
+name = "Sieve-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sieve.jinja", "sieve.jinja2", "sieve.j2", "sieveinterface.jinja", "sieveinterface.jinja2", "sieveinterface.j2"]
+block_comment = ["{#", "#}"]

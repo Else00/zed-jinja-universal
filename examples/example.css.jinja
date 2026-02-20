@@ -1,0 +1,21 @@
+/* {{ description }} */
+
+:root {
+    {% for var in css_variables %}
+    --{{ var.name }}: {{ var.value }};
+    {% endfor %}
+}
+
+.{{ class_name }} {
+    {% for prop in properties %}
+    {{ prop.name }}: {{ prop.value }};
+    {% endfor %}
+}
+
+{% if use_media_query %}
+@media (max-width: {{ breakpoint }}px) {
+    .{{ class_name }} {
+        display: {{ mobile_display }};
+    }
+}
+{% endif %}

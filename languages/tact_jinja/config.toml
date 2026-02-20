@@ -1,0 +1,4 @@
+name = "Tact-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tact.jinja", "tact.jinja2", "tact.j2"]
+block_comment = ["{#", "#}"]

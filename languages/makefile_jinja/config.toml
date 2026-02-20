@@ -1,0 +1,4 @@
+name = "Makefile-Jinja"
+grammar = "jinja2"
+path_suffixes = ["GNUmakefile.jinja", "GNUmakefile.jinja2", "GNUmakefile.j2", "Makefile.jinja", "Makefile.jinja2", "Makefile.j2", "makefile.jinja", "makefile.jinja2", "makefile.j2", "mk.jinja", "mk.jinja2", "mk.j2"]
+block_comment = ["{#", "#}"]

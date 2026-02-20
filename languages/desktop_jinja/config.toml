@@ -1,0 +1,4 @@
+name = "Desktop Entry-Jinja"
+grammar = "jinja2"
+path_suffixes = ["desktop.jinja", "desktop.jinja2", "desktop.j2", "directory.jinja", "directory.jinja2", "directory.j2"]
+block_comment = ["{#", "#}"]

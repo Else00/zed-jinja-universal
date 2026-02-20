@@ -1,0 +1,4 @@
+name = "Nginx-Jinja"
+grammar = "jinja2"
+path_suffixes = ["nginx.conf.jinja", "nginx.conf.jinja2", "nginx.conf.j2"]
+block_comment = ["{#", "#}"]

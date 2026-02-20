@@ -1,0 +1,22 @@
+-- {{ description }}
+
+{% if use_transaction %}
+BEGIN TRANSACTION;
+{% endif %}
+
+CREATE TABLE {{ table_name }} (
+    {% for col in columns %}
+    {{ col.name }} {{ col.type }}{% if col.constraints %} {{ col.constraints }}{% endif %}{{ "," if not loop.last }}
+    {% endfor %}
+);
+
+{% for index in indexes %}
+CREATE INDEX idx_{{ index.name }} ON {{ table_name }}({{ index.columns | join(', ') }});
+{% endfor %}
+
+INSERT INTO {{ table_name }} ({% for col in insert_columns %}{{ col }}{{ ", " if not loop.last }}{% endfor %})
+VALUES ({% for val in insert_values %}{{ val }}{{ ", " if not loop.last }}{% endfor %});
+
+{% if use_transaction %}
+COMMIT;
+{% endif %}

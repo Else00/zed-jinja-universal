@@ -1,0 +1,4 @@
+name = "Cylc-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cylc.jinja", "cylc.jinja2", "cylc.j2"]
+block_comment = ["{#", "#}"]

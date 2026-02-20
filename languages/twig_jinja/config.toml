@@ -1,0 +1,4 @@
+name = "Twig-Jinja"
+grammar = "jinja2"
+path_suffixes = ["html.twig.jinja", "html.twig.jinja2", "html.twig.j2", "twig.jinja", "twig.jinja2", "twig.j2", "twig.html.jinja", "twig.html.jinja2", "twig.html.j2"]
+block_comment = ["{#", "#}"]

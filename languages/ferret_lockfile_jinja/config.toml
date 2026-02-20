@@ -1,0 +1,4 @@
+name = "Ferret Lockfile-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ferret.lock.jinja", "ferret.lock.jinja2", "ferret.lock.j2"]
+block_comment = ["{#", "#}"]

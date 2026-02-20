@@ -1,0 +1,4 @@
+name = "ion-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ion.jinja", "ion.jinja2", "ion.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Tolk-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tolk.jinja", "tolk.jinja2", "tolk.j2"]
+block_comment = ["{#", "#}"]

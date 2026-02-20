@@ -1,0 +1,4 @@
+name = "KCL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["k.jinja", "k.jinja2", "k.j2"]
+block_comment = ["{#", "#}"]

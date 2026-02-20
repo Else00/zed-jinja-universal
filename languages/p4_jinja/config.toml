@@ -1,0 +1,4 @@
+name = "P4 Language-Jinja"
+grammar = "jinja2"
+path_suffixes = ["p4.jinja", "p4.jinja2", "p4.j2"]
+block_comment = ["{#", "#}"]

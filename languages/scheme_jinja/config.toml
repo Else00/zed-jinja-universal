@@ -1,0 +1,4 @@
+name = "Scheme-Jinja"
+grammar = "jinja2"
+path_suffixes = ["scm.jinja", "scm.jinja2", "scm.j2", "ss.jinja", "ss.jinja2", "ss.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Exograph-Jinja"
+grammar = "jinja2"
+path_suffixes = ["exo.jinja", "exo.jinja2", "exo.j2"]
+block_comment = ["{#", "#}"]

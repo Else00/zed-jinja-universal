@@ -1,0 +1,4 @@
+name = "pica200-Jinja"
+grammar = "jinja2"
+path_suffixes = ["pica.jinja", "pica.jinja2", "pica.j2"]
+block_comment = ["{#", "#}"]

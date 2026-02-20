@@ -1,0 +1,26 @@
+# === PURE YAML (no jinja) ===
+name: my-application
+version: "1.0.0"
+
+database:
+  host: localhost
+  port: 5432
+  name: mydb
+  credentials:
+    username: admin
+    password: secret
+
+features:
+  - name: authentication
+    enabled: true
+  - name: logging
+    enabled: true
+    level: debug
+
+servers:
+  production:
+    url: https://prod.example.com
+    replicas: 3
+  staging:
+    url: https://staging.example.com
+    replicas: 1

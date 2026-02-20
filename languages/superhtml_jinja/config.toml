@@ -1,0 +1,4 @@
+name = "SuperHTML-Jinja"
+grammar = "jinja2"
+path_suffixes = ["shtml.jinja", "shtml.jinja2", "shtml.j2"]
+block_comment = ["{#", "#}"]

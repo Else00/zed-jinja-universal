@@ -1,0 +1,4 @@
+name = "bitbake-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bb.jinja", "bb.jinja2", "bb.j2", "bbappend.jinja", "bbappend.jinja2", "bbappend.j2", "bbclass.jinja", "bbclass.jinja2", "bbclass.j2", "conf.jinja", "conf.jinja2", "conf.j2", "inc.jinja", "inc.jinja2", "inc.j2"]
+block_comment = ["{#", "#}"]

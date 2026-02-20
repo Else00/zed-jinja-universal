@@ -1,0 +1,4 @@
+name = "HXML-Jinja"
+grammar = "jinja2"
+path_suffixes = ["hxml.jinja", "hxml.jinja2", "hxml.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "vCard-Jinja"
+grammar = "jinja2"
+path_suffixes = ["vcf.jinja", "vcf.jinja2", "vcf.j2"]
+block_comment = ["{#", "#}"]

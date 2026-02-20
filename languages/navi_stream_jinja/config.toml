@@ -1,0 +1,4 @@
+name = "Navi Stream-Jinja"
+grammar = "jinja2"
+path_suffixes = ["nvs.jinja", "nvs.jinja2", "nvs.j2"]
+block_comment = ["{#", "#}"]

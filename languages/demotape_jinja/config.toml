@@ -1,0 +1,4 @@
+name = "Demo Tape-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tape.jinja", "tape.jinja2", "tape.j2"]
+block_comment = ["{#", "#}"]

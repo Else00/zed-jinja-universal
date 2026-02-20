@@ -1,0 +1,4 @@
+name = "Dart-Jinja"
+grammar = "jinja2"
+path_suffixes = ["dart.jinja", "dart.jinja2", "dart.j2"]
+block_comment = ["{#", "#}"]

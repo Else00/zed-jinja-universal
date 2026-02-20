@@ -1,0 +1,4 @@
+name = "LilyPond-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ily.jinja", "ily.jinja2", "ily.j2", "ly.jinja", "ly.jinja2", "ly.j2"]
+block_comment = ["{#", "#}"]

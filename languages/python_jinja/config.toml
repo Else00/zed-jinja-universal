@@ -1,0 +1,4 @@
+name = "Python-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mpy.jinja", "mpy.jinja2", "mpy.j2", "py.jinja", "py.jinja2", "py.j2", "pyi.jinja", "pyi.jinja2", "pyi.j2"]
+block_comment = ["{#", "#}"]

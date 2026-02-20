@@ -1,0 +1,4 @@
+name = "Hyprlang-Jinja"
+grammar = "jinja2"
+path_suffixes = ["conf.jinja", "conf.jinja2", "conf.j2", "hl.jinja", "hl.jinja2", "hl.j2"]
+block_comment = ["{#", "#}"]

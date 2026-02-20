@@ -1,0 +1,4 @@
+name = "AsciiDoc-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ad.jinja", "ad.jinja2", "ad.j2", "adoc.jinja", "adoc.jinja2", "adoc.j2", "asc.jinja", "asc.jinja2", "asc.j2", "asciidoc.jinja", "asciidoc.jinja2", "asciidoc.j2"]
+block_comment = ["{#", "#}"]

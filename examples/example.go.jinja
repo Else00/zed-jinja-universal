@@ -1,0 +1,20 @@
+// {{ description }}
+package {{ package_name }}
+
+{% if use_imports %}
+import (
+    {% for imp in imports %}
+    "{{ imp }}"
+    {% endfor %}
+)
+{% endif %}
+
+type {{ struct_name }} struct {
+    {% for field in fields %}
+    {{ field.name }} {{ field.type }}
+    {% endfor %}
+}
+
+func {{ function_name }}() {{ struct_name }} {
+    return {{ struct_name }}{}
+}

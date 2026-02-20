@@ -1,0 +1,4 @@
+name = "WebAssembly-Jinja"
+grammar = "jinja2"
+path_suffixes = ["wast.jinja", "wast.jinja2", "wast.j2", "wat.jinja", "wat.jinja2", "wat.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "http-Jinja"
+grammar = "jinja2"
+path_suffixes = ["http.jinja", "http.jinja2", "http.j2"]
+block_comment = ["{#", "#}"]

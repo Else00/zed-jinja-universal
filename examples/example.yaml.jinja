@@ -1,0 +1,20 @@
+# {{ description }}
+
+{{ root_key }}:
+  {% for item in items %}
+  {{ item.key }}: {{ item.value }}
+  {% endfor %}
+
+{{ list_key }}:
+  {% for val in list_values %}
+  - {{ val }}
+  {% endfor %}
+
+{% if use_anchor %}
+defaults: &defaults
+  {{ default_key }}: {{ default_value }}
+
+production:
+  <<: *defaults
+  {{ override_key }}: {{ override_value }}
+{% endif %}

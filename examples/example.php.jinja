@@ -1,0 +1,18 @@
+<?php
+// {{ description }}
+
+{% if use_namespace %}
+namespace {{ namespace_name }};
+{% endif %}
+
+class {{ class_name }} {
+    {% for prop in properties %}
+    private ${{ prop.name }};
+    {% endfor %}
+
+    public function __construct({% for arg in args %}${{ arg }}{{ ", " if not loop.last }}{% endfor %}) {
+        {% for prop in properties %}
+        $this->{{ prop.name }} = ${{ prop.name }};
+        {% endfor %}
+    }
+}

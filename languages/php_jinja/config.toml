@@ -1,0 +1,4 @@
+name = "PHP-Jinja"
+grammar = "jinja2"
+path_suffixes = ["php.jinja", "php.jinja2", "php.j2", "phtml.jinja", "phtml.jinja2", "phtml.j2"]
+block_comment = ["{#", "#}"]

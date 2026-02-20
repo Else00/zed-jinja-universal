@@ -1,0 +1,4 @@
+name = "OMNeT++ MSG-Jinja"
+grammar = "jinja2"
+path_suffixes = ["msg.jinja", "msg.jinja2", "msg.j2"]
+block_comment = ["{#", "#}"]

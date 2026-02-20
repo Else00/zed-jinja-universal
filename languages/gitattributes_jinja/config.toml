@@ -1,0 +1,4 @@
+name = "Git Attributes-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gitattributes.jinja", "gitattributes.jinja2", "gitattributes.j2"]
+block_comment = ["{#", "#}"]

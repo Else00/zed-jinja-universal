@@ -1,0 +1,4 @@
+name = "Env-Jinja"
+grammar = "jinja2"
+path_suffixes = ["env.jinja", "env.jinja2", "env.j2", "envrc.jinja", "envrc.jinja2", "envrc.j2"]
+block_comment = ["{#", "#}"]

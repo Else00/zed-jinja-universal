@@ -1,0 +1,3 @@
+((content) @injection.content
+ (#set! injection.language "$zed_language")
+ (#set! injection.combined))

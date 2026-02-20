@@ -1,0 +1,11 @@
+id = "jinja-universal"
+name = "Jinja Universal"
+version = "1.0.0"
+schema_version = 1
+description = "Jinja2 template support for 353 languages across Zed's native and extension categories (Python, YAML, TOML, Markdown, HTML, JS, SQL, and more)"
+authors = ["else", "Based on jinja2-support by Archer Hume"]
+repository = "https://github.com/else/jinja-universal"
+
+[grammars.jinja2]
+repository = "https://github.com/Else00/tree-sitter-jinja2-universal"
+commit = "f05225cffe1883d8aa1e0f3d2c93e836255960d2"

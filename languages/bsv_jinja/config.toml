@@ -1,0 +1,4 @@
+name = "Bluespec SystemVerilog-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bsv.jinja", "bsv.jinja2", "bsv.j2"]
+block_comment = ["{#", "#}"]

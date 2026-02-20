@@ -1,0 +1,4 @@
+name = "GPR-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gpr.jinja", "gpr.jinja2", "gpr.j2"]
+block_comment = ["{#", "#}"]

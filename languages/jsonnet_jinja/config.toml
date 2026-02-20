@@ -1,0 +1,4 @@
+name = "Jsonnet-Jinja"
+grammar = "jinja2"
+path_suffixes = ["jsonnet.jinja", "jsonnet.jinja2", "jsonnet.j2", "libsonnet.jinja", "libsonnet.jinja2", "libsonnet.j2"]
+block_comment = ["{#", "#}"]

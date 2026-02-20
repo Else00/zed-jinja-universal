@@ -1,0 +1,4 @@
+name = "ReScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["res.jinja", "res.jinja2", "res.j2", "resi.jinja", "resi.jinja2", "resi.j2"]
+block_comment = ["{#", "#}"]

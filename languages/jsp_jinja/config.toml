@@ -1,0 +1,4 @@
+name = "JSP-Jinja"
+grammar = "jinja2"
+path_suffixes = ["jsp.jinja", "jsp.jinja2", "jsp.j2", "jspf.jinja", "jspf.jinja2", "jspf.j2", "tag.jinja", "tag.jinja2", "tag.j2"]
+block_comment = ["{#", "#}"]

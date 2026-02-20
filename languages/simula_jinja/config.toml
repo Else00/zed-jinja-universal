@@ -1,0 +1,4 @@
+name = "Simula-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sim.jinja", "sim.jinja2", "sim.j2"]
+block_comment = ["{#", "#}"]

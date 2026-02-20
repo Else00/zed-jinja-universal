@@ -1,0 +1,4 @@
+name = "Erlang-Jinja"
+grammar = "jinja2"
+path_suffixes = ["erl.jinja", "erl.jinja2", "erl.j2", "hrl.jinja", "hrl.jinja2", "hrl.j2", "xrl.jinja", "xrl.jinja2", "xrl.j2", "yrl.jinja", "yrl.jinja2", "yrl.j2"]
+block_comment = ["{#", "#}"]

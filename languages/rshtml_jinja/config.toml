@@ -1,0 +1,4 @@
+name = "RsHtml-Jinja"
+grammar = "jinja2"
+path_suffixes = ["rs.html.jinja", "rs.html.jinja2", "rs.html.j2"]
+block_comment = ["{#", "#}"]

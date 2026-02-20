@@ -1,0 +1,19 @@
+# {{ description }}
+
+{% if use_requires %}
+{% for req in requires %}
+require '{{ req }}'
+{% endfor %}
+{% endif %}
+
+class {{ class_name }}
+  {% for attr in attributes %}
+  attr_accessor :{{ attr }}
+  {% endfor %}
+
+  def initialize({% for arg in args %}{{ arg }}{{ ", " if not loop.last }}{% endfor %})
+    {% for attr in attributes %}
+    @{{ attr }} = {{ attr }}
+    {% endfor %}
+  end
+end

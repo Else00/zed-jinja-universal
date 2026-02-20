@@ -1,0 +1,4 @@
+name = "Linker Script-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ld.jinja", "ld.jinja2", "ld.j2"]
+block_comment = ["{#", "#}"]

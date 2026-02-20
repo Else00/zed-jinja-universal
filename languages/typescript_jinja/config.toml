@@ -1,0 +1,4 @@
+name = "TypeScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cts.jinja", "cts.jinja2", "cts.j2", "mts.jinja", "mts.jinja2", "mts.j2", "ts.jinja", "ts.jinja2", "ts.j2"]
+block_comment = ["{#", "#}"]

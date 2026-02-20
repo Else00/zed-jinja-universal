@@ -1,0 +1,4 @@
+name = "Slang-Jinja"
+grammar = "jinja2"
+path_suffixes = ["slang.jinja", "slang.jinja2", "slang.j2"]
+block_comment = ["{#", "#}"]

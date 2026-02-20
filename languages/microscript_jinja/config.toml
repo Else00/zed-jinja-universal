@@ -1,0 +1,4 @@
+name = "microScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ms.jinja", "ms.jinja2", "ms.j2"]
+block_comment = ["{#", "#}"]

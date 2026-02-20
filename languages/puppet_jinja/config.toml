@@ -1,0 +1,4 @@
+name = "Puppet-Jinja"
+grammar = "jinja2"
+path_suffixes = ["epp.jinja", "epp.jinja2", "epp.j2", "pp.jinja", "pp.jinja2", "pp.j2"]
+block_comment = ["{#", "#}"]

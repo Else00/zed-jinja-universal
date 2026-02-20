@@ -1,0 +1,4 @@
+name = "Git Ignore-Jinja"
+grammar = "jinja2"
+path_suffixes = ["containerignore.jinja", "containerignore.jinja2", "containerignore.j2", "cursorignore.jinja", "cursorignore.jinja2", "cursorignore.j2", "dockerignore.jinja", "dockerignore.jinja2", "dockerignore.j2", "eslintignore.jinja", "eslintignore.jinja2", "eslintignore.j2", "fdignore.jinja", "fdignore.jinja2", "fdignore.j2", "git-blame-ignore-revs.jinja", "git-blame-ignore-revs.jinja2", "git-blame-ignore-revs.j2", "gitignore.jinja", "gitignore.jinja2", "gitignore.j2", "ignore.jinja", "ignore.jinja2", "ignore.j2", "npmignore.jinja", "npmignore.jinja2", "npmignore.j2", "prettierignore.jinja", "prettierignore.jinja2", "prettierignore.j2", "rgignore.jinja", "rgignore.jinja2", "rgignore.j2", "vscodeignore.jinja", "vscodeignore.jinja2", "vscodeignore.j2"]
+block_comment = ["{#", "#}"]

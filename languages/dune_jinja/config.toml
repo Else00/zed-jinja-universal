@@ -1,0 +1,4 @@
+name = "Dune-Jinja"
+grammar = "jinja2"
+path_suffixes = ["dune.jinja", "dune.jinja2", "dune.j2", "dune-project.jinja", "dune-project.jinja2", "dune-project.j2", "dune-workspace.jinja", "dune-workspace.jinja2", "dune-workspace.j2"]
+block_comment = ["{#", "#}"]

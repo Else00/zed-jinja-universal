@@ -1,0 +1,16 @@
+-- {{ description }}
+
+local {{ module_name }} = {}
+
+{% for const in constants %}
+{{ module_name }}.{{ const.name }} = {{ const.value }}
+{% endfor %}
+
+function {{ module_name }}.{{ function_name }}({% for arg in args %}{{ arg }}{{ ", " if not loop.last }}{% endfor %})
+    {% if use_debug %}
+    print("Debug: {{ function_name }}")
+    {% endif %}
+    return {{ return_value }}
+end
+
+return {{ module_name }}

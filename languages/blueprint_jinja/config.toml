@@ -1,0 +1,4 @@
+name = "Blueprint-Jinja"
+grammar = "jinja2"
+path_suffixes = ["blp.jinja", "blp.jinja2", "blp.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Freemarker-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ftl.jinja", "ftl.jinja2", "ftl.j2"]
+block_comment = ["{#", "#}"]

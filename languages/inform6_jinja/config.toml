@@ -1,0 +1,4 @@
+name = "Inform 6-Jinja"
+grammar = "jinja2"
+path_suffixes = ["h.jinja", "h.jinja2", "h.j2", "inf.jinja", "inf.jinja2", "inf.j2"]
+block_comment = ["{#", "#}"]

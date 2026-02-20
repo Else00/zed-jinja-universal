@@ -1,0 +1,4 @@
+name = "bazelrc-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bazelrc.jinja", "bazelrc.jinja2", "bazelrc.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "HLSL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["hlsl.jinja", "hlsl.jinja2", "hlsl.j2"]
+block_comment = ["{#", "#}"]

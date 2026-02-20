@@ -1,0 +1,12 @@
+{
+    "{{ root_key }}": {
+        {% for item in items %}
+        "{{ item.key }}": {{ item.value }}{{ "," if not loop.last }}
+        {% endfor %}
+    },
+    "{{ array_key }}": [
+        {% for val in array_values %}
+        "{{ val }}"{{ "," if not loop.last }}
+        {% endfor %}
+    ]
+}

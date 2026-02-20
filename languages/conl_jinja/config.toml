@@ -1,0 +1,4 @@
+name = "CONL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["conl.jinja", "conl.jinja2", "conl.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "WGSL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["wgsl.jinja", "wgsl.jinja2", "wgsl.j2"]
+block_comment = ["{#", "#}"]

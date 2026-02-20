@@ -1,0 +1,4 @@
+name = "Markdown-Jinja"
+grammar = "jinja2"
+path_suffixes = ["MD.jinja", "MD.jinja2", "MD.j2", "markdown.jinja", "markdown.jinja2", "markdown.j2", "md.jinja", "md.jinja2", "md.j2", "mdwn.jinja", "mdwn.jinja2", "mdwn.j2"]
+block_comment = ["{#", "#}"]

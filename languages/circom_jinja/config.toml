@@ -1,0 +1,4 @@
+name = "Circom-Jinja"
+grammar = "jinja2"
+path_suffixes = ["circom.jinja", "circom.jinja2", "circom.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,20 @@
+//! {{ description }}
+
+{% if use_serde %}
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Serialize, Deserialize)]
+{% endif %}
+struct {{ struct_name }} {
+    {% for field in fields %}
+    {{ field.name }}: {{ field.type }},
+    {% endfor %}
+}
+
+fn {{ function_name }}() -> {{ struct_name }} {
+    {{ struct_name }} {
+        {% for field in fields %}
+        {{ field.name }}: {{ field.default }},
+        {% endfor %}
+    }
+}

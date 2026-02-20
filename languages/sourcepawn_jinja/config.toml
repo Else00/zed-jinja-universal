@@ -1,0 +1,4 @@
+name = "Sourcepawn-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sp.jinja", "sp.jinja2", "sp.j2"]
+block_comment = ["{#", "#}"]

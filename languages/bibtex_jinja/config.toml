@@ -1,0 +1,4 @@
+name = "BibTeX-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bib.jinja", "bib.jinja2", "bib.j2", "biblatex.jinja", "biblatex.jinja2", "biblatex.j2", "bibtex.jinja", "bibtex.jinja2", "bibtex.j2"]
+block_comment = ["{#", "#}"]

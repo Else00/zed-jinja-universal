@@ -1,0 +1,4 @@
+name = "SASS-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sass.jinja", "sass.jinja2", "sass.j2"]
+block_comment = ["{#", "#}"]

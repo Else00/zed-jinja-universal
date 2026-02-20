@@ -1,0 +1,4 @@
+name = "SageMath-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sage.jinja", "sage.jinja2", "sage.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "SQL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sql.jinja", "sql.jinja2", "sql.j2"]
+block_comment = ["{#", "#}"]

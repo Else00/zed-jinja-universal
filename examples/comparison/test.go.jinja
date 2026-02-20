@@ -1,0 +1,47 @@
+// === PURE GO (no jinja) ===
+package main
+
+import (
+    "fmt"
+    "strings"
+)
+
+type User struct {
+    Name  string
+    Email string
+    Age   int
+}
+
+func (u *User) Greet() string {
+    return fmt.Sprintf("Hello, %s!", u.Name)
+}
+
+func ProcessUsers(users []User) []string {
+    var results []string
+    for _, user := range users {
+        if user.Age >= 18 {
+            results = append(results, user.Greet())
+        }
+    }
+    return results
+}
+
+// === WITH JINJA ===
+package {{ package_name }}
+
+{% for imp in imports %}
+import "{{ imp }}"
+{% endfor %}
+
+type {{ struct_name }} struct {
+    {% for field in fields %}
+    {{ field.name }} {{ field.type }}
+    {% endfor %}
+}
+
+func {{ function_name }}() {{ return_type }} {
+    {% if use_logging %}
+    fmt.Println("Starting {{ function_name }}")
+    {% endif %}
+    return {{ default_value }}
+}

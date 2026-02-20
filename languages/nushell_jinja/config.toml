@@ -1,0 +1,4 @@
+name = "Nushell-Jinja"
+grammar = "jinja2"
+path_suffixes = ["nu.jinja", "nu.jinja2", "nu.j2"]
+block_comment = ["{#", "#}"]

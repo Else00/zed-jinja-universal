@@ -1,0 +1,12 @@
+"""{{ description }}"""
+
+def {{ function_name }}({% for arg in args %}{{ arg }}{{ ", " if not loop.last }}{% endfor %}):
+    {% if use_logging %}
+    import logging
+    logging.info("Starting {{ function_name }}")
+    {% endif %}
+    result = {{ default_value }}
+    return result
+
+if __name__ == "__main__":
+    print({{ function_name }}())

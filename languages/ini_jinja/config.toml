@@ -1,0 +1,4 @@
+name = "INI-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cfg.jinja", "cfg.jinja2", "cfg.j2", "conf.jinja", "conf.jinja2", "conf.j2", "ini.jinja", "ini.jinja2", "ini.j2"]
+block_comment = ["{#", "#}"]

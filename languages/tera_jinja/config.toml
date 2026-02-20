@@ -1,0 +1,4 @@
+name = "Tera-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tera.jinja", "tera.jinja2", "tera.j2"]
+block_comment = ["{#", "#}"]

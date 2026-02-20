@@ -1,0 +1,4 @@
+name = "AWK-Jinja"
+grammar = "jinja2"
+path_suffixes = ["awk.jinja", "awk.jinja2", "awk.j2"]
+block_comment = ["{#", "#}"]

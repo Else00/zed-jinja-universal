@@ -1,0 +1,4 @@
+name = "Astro-Jinja"
+grammar = "jinja2"
+path_suffixes = ["astro.jinja", "astro.jinja2", "astro.j2"]
+block_comment = ["{#", "#}"]

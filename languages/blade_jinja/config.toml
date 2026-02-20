@@ -1,0 +1,4 @@
+name = "Blade-Jinja"
+grammar = "jinja2"
+path_suffixes = ["blade.php.jinja", "blade.php.jinja2", "blade.php.j2"]
+block_comment = ["{#", "#}"]

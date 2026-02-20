@@ -1,0 +1,17 @@
+// {{ description }}
+
+{% for var in variables %}
+${{ var.name }}: {{ var.value }};
+{% endfor %}
+
+.{{ class_name }} {
+    {% for prop in properties %}
+    {{ prop.name }}: {{ prop.value }};
+    {% endfor %}
+
+    {% if use_nesting %}
+    &:hover {
+        {{ hover_property }}: {{ hover_value }};
+    }
+    {% endif %}
+}

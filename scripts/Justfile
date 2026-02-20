@@ -1,0 +1,40 @@
+set shell := ["bash", "-lc"]
+set windows-shell := ["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command"]
+
+# Show help
+default:
+    @just --list
+
+# Format code with ruff
+[group('dev')]
+format:
+    uv run ruff format
+
+# Lint and auto-fix with ruff
+[group('dev')]
+lint:
+    uv run ruff check --fix
+
+# Type check with basedpyright
+[group('dev')]
+typecheck:
+    uv run basedpyright
+
+# Unit tests (mocked/deterministic) with coverage
+[group('dev')]
+test:
+    just test-unit
+
+# Unit tests only (used by check)
+[group('dev')]
+test-unit:
+    uv run pytest -q
+
+# Real integration tests for sync against fetched remote data
+[group('dev')]
+test-integration-sync:
+    RUN_SYNC_INTEGRATION=1 uv run pytest -q tests/integration -m integration --no-cov -ra
+
+# Run all checks (format, lint, typecheck, unit tests)
+[group('dev')]
+check: format lint typecheck test-unit

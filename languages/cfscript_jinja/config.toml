@@ -1,0 +1,4 @@
+name = "CFML (Script)-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cfs.jinja", "cfs.jinja2", "cfs.j2"]
+block_comment = ["{#", "#}"]

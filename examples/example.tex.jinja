@@ -1,0 +1,21 @@
+% {{ description }}
+\documentclass[{{ document_class }}]{article}
+
+{% for pkg in packages %}
+\usepackage{{ "{" }}{{ pkg }}{{ "}" }}
+{% endfor %}
+
+\title{{ "{" }}{{ title }}{{ "}" }}
+\author{{ "{" }}{{ author }}{{ "}" }}
+
+\begin{document}
+
+\maketitle
+
+{% for section in sections %}
+\section{{ "{" }}{{ section.title }}{{ "}" }}
+{{ section.content }}
+
+{% endfor %}
+
+\end{document}

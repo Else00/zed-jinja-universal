@@ -1,0 +1,4 @@
+name = "Angular-Jinja"
+grammar = "jinja2"
+path_suffixes = ["component.html.jinja", "component.html.jinja2", "component.html.j2", "ng.html.jinja", "ng.html.jinja2", "ng.html.j2"]
+block_comment = ["{#", "#}"]

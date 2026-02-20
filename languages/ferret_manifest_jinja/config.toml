@@ -1,0 +1,4 @@
+name = "Ferret Manifest-Jinja"
+grammar = "jinja2"
+path_suffixes = ["fer.ret.jinja", "fer.ret.jinja2", "fer.ret.j2"]
+block_comment = ["{#", "#}"]

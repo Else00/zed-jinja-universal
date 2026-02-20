@@ -1,0 +1,4 @@
+name = "Snakemake-Jinja"
+grammar = "jinja2"
+path_suffixes = ["Snakefile.jinja", "Snakefile.jinja2", "Snakefile.j2", "smk.jinja", "smk.jinja2", "smk.j2", "snakefile.jinja", "snakefile.jinja2", "snakefile.j2"]
+block_comment = ["{#", "#}"]

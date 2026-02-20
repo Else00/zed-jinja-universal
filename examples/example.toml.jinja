@@ -1,0 +1,13 @@
+# {{ description }}
+
+[{{ section_name }}]
+{% for item in items %}
+{{ item.key }} = {{ item.value }}
+{% endfor %}
+
+{% if use_array %}
+[[{{ array_section }}]]
+{% for item in array_items %}
+{{ item.key }} = {{ item.value }}
+{% endfor %}
+{% endif %}

@@ -1,0 +1,4 @@
+name = "JSONC-Jinja"
+grammar = "jinja2"
+path_suffixes = ["jsonc.jinja", "jsonc.jinja2", "jsonc.j2"]
+block_comment = ["{#", "#}"]

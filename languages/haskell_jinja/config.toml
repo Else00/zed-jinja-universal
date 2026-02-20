@@ -1,0 +1,4 @@
+name = "Haskell-Jinja"
+grammar = "jinja2"
+path_suffixes = ["hs.jinja", "hs.jinja2", "hs.j2"]
+block_comment = ["{#", "#}"]

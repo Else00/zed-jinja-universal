@@ -1,0 +1,4 @@
+name = "C3-Jinja"
+grammar = "jinja2"
+path_suffixes = ["c3.jinja", "c3.jinja2", "c3.j2", "c3i.jinja", "c3i.jinja2", "c3i.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "WeiXin Markup Language-Jinja"
+grammar = "jinja2"
+path_suffixes = ["wxml.jinja", "wxml.jinja2", "wxml.j2"]
+block_comment = ["{#", "#}"]

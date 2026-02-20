@@ -1,0 +1,4 @@
+name = "Apache Avro (IDL)-Jinja"
+grammar = "jinja2"
+path_suffixes = ["avdl.jinja", "avdl.jinja2", "avdl.j2"]
+block_comment = ["{#", "#}"]

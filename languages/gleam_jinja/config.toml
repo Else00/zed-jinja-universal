@@ -1,0 +1,4 @@
+name = "Gleam-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gleam.jinja", "gleam.jinja2", "gleam.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "LLVM IR-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ll.jinja", "ll.jinja2", "ll.j2"]
+block_comment = ["{#", "#}"]

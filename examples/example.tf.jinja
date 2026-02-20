@@ -1,0 +1,23 @@
+# {{ description }}
+
+{% for var in variables %}
+variable "{{ var.name }}" {
+  type        = {{ var.type }}
+  default     = {{ var.default }}
+  description = "{{ var.description }}"
+}
+{% endfor %}
+
+resource "{{ resource_type }}" "{{ resource_name }}" {
+  {% for attr in attributes %}
+  {{ attr.name }} = {{ attr.value }}
+  {% endfor %}
+
+  {% if use_tags %}
+  tags = {
+    {% for tag in tags %}
+    {{ tag.key }} = "{{ tag.value }}"
+    {% endfor %}
+  }
+  {% endif %}
+}

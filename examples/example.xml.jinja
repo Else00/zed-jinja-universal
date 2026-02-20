@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- {{ description }} -->
+<{{ root_element }} xmlns="{{ namespace }}">
+    {% for item in items %}
+    <{{ item.tag }}{% for attr in item.attrs %} {{ attr.name }}="{{ attr.value }}"{% endfor %}>
+        {{ item.content }}
+    </{{ item.tag }}>
+    {% endfor %}
+</{{ root_element }}>

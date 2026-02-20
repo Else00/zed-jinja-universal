@@ -1,0 +1,4 @@
+name = "Odin-Jinja"
+grammar = "jinja2"
+path_suffixes = ["odin.jinja", "odin.jinja2", "odin.j2"]
+block_comment = ["{#", "#}"]

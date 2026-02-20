@@ -1,0 +1,24 @@
+# {{ title }}
+
+{{ description }}
+
+{% if use_toc %}
+## Table of Contents
+
+{% for section in sections %}
+- [{{ section.title }}](#{{ section.anchor }})
+{% endfor %}
+{% endif %}
+
+{% for section in sections %}
+## {{ section.title }}
+
+{{ section.content }}
+
+{% if section.code %}
+```{{ section.code_lang }}
+{{ section.code }}
+```
+{% endif %}
+
+{% endfor %}

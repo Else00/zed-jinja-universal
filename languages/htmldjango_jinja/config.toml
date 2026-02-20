@@ -1,0 +1,4 @@
+name = "Django-Jinja"
+grammar = "jinja2"
+path_suffixes = ["dj.html.jinja", "dj.html.jinja2", "dj.html.j2", "dj.md.jinja", "dj.md.jinja2", "dj.md.j2", "dj.txt.jinja", "dj.txt.jinja2", "dj.txt.j2"]
+block_comment = ["{#", "#}"]

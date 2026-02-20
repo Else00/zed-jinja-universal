@@ -1,0 +1,4 @@
+name = "Animation.txt-Jinja"
+grammar = "jinja2"
+path_suffixes = ["animation.txt.jinja", "animation.txt.jinja2", "animation.txt.j2"]
+block_comment = ["{#", "#}"]

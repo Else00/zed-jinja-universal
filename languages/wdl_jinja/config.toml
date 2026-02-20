@@ -1,0 +1,4 @@
+name = "WDL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["wdl.jinja", "wdl.jinja2", "wdl.j2"]
+block_comment = ["{#", "#}"]

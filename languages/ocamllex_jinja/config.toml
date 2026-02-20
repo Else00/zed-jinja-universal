@@ -1,0 +1,4 @@
+name = "OCamllex-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mll.jinja", "mll.jinja2", "mll.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "CQL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cql.jinja", "cql.jinja2", "cql.j2"]
+block_comment = ["{#", "#}"]

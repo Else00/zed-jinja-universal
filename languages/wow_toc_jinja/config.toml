@@ -1,0 +1,4 @@
+name = "WoW TOC-Jinja"
+grammar = "jinja2"
+path_suffixes = ["toc.jinja", "toc.jinja2", "toc.j2"]
+block_comment = ["{#", "#}"]

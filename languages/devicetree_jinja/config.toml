@@ -1,0 +1,4 @@
+name = "devicetree-Jinja"
+grammar = "jinja2"
+path_suffixes = ["dts.jinja", "dts.jinja2", "dts.j2", "dtsi.jinja", "dtsi.jinja2", "dtsi.j2", "dtso.jinja", "dtso.jinja2", "dtso.j2", "its.jinja", "its.jinja2", "its.j2"]
+block_comment = ["{#", "#}"]

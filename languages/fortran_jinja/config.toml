@@ -1,0 +1,4 @@
+name = "Fortran-Jinja"
+grammar = "jinja2"
+path_suffixes = ["F.jinja", "F.jinja2", "F.j2", "F03.jinja", "F03.jinja2", "F03.j2", "F08.jinja", "F08.jinja2", "F08.j2", "F90.jinja", "F90.jinja2", "F90.j2", "F95.jinja", "F95.jinja2", "F95.j2", "f.jinja", "f.jinja2", "f.j2", "f03.jinja", "f03.jinja2", "f03.j2", "f08.jinja", "f08.jinja2", "f08.j2", "f90.jinja", "f90.jinja2", "f90.j2", "f95.jinja", "f95.jinja2", "f95.j2"]
+block_comment = ["{#", "#}"]

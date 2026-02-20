@@ -1,0 +1,4 @@
+name = "Groovy-Jinja"
+grammar = "jinja2"
+path_suffixes = ["JenkinsFile.jinja", "JenkinsFile.jinja2", "JenkinsFile.j2", "Jenkinsfile.jinja", "Jenkinsfile.jinja2", "Jenkinsfile.j2", "gradle.jinja", "gradle.jinja2", "gradle.j2", "groovy.jinja", "groovy.jinja2", "groovy.j2"]
+block_comment = ["{#", "#}"]

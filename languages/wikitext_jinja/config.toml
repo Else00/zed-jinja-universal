@@ -1,0 +1,4 @@
+name = "Wikitext-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mediawiki.jinja", "mediawiki.jinja2", "mediawiki.j2", "wikimedia.jinja", "wikimedia.jinja2", "wikimedia.j2", "wikitext.jinja", "wikitext.jinja2", "wikitext.j2"]
+block_comment = ["{#", "#}"]

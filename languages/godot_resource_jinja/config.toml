@@ -1,0 +1,4 @@
+name = "Godot Resource-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gdextension.jinja", "gdextension.jinja2", "gdextension.j2", "godot.jinja", "godot.jinja2", "godot.j2", "import.jinja", "import.jinja2", "import.j2", "tres.jinja", "tres.jinja2", "tres.j2", "tscn.jinja", "tscn.jinja2", "tscn.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Editorconfig-Jinja"
+grammar = "jinja2"
+path_suffixes = ["editorconfig.jinja", "editorconfig.jinja2", "editorconfig.j2"]
+block_comment = ["{#", "#}"]

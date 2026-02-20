@@ -1,0 +1,4 @@
+name = "Txtar-Jinja"
+grammar = "jinja2"
+path_suffixes = ["txtar.jinja", "txtar.jinja2", "txtar.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "DuckyScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["txt.jinja", "txt.jinja2", "txt.j2"]
+block_comment = ["{#", "#}"]

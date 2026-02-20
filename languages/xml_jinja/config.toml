@@ -1,0 +1,4 @@
+name = "XML-Jinja"
+grammar = "jinja2"
+path_suffixes = ["xml.jinja", "xml.jinja2", "xml.j2"]
+block_comment = ["{#", "#}"]

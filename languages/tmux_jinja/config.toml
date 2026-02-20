@@ -1,0 +1,4 @@
+name = "tmux-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tmux.jinja", "tmux.jinja2", "tmux.j2", "tmux.conf.jinja", "tmux.conf.jinja2", "tmux.conf.j2"]
+block_comment = ["{#", "#}"]

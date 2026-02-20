@@ -1,0 +1,4 @@
+name = "GraphQL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gql.jinja", "gql.jinja2", "gql.j2", "graphql.jinja", "graphql.jinja2", "graphql.j2", "graphqls.jinja", "graphqls.jinja2", "graphqls.j2"]
+block_comment = ["{#", "#}"]

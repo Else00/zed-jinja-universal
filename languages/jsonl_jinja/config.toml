@@ -1,0 +1,4 @@
+name = "JSON Lines-Jinja"
+grammar = "jinja2"
+path_suffixes = ["jsonl.jinja", "jsonl.jinja2", "jsonl.j2", "ndjson.jinja", "ndjson.jinja2", "ndjson.j2"]
+block_comment = ["{#", "#}"]

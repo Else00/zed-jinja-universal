@@ -1,0 +1,4 @@
+name = "Cadence-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cdc.jinja", "cdc.jinja2", "cdc.j2"]
+block_comment = ["{#", "#}"]

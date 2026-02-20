@@ -1,0 +1,4 @@
+name = "Go Text Template-Jinja"
+grammar = "jinja2"
+path_suffixes = ["go.txt.jinja", "go.txt.jinja2", "go.txt.j2", "gotmpl.jinja", "gotmpl.jinja2", "gotmpl.j2", "gtpl.jinja", "gtpl.jinja2", "gtpl.j2", "txt.gotmpl.jinja", "txt.gotmpl.jinja2", "txt.gotmpl.j2", "txt.gotpl.jinja", "txt.gotpl.jinja2", "txt.gotpl.j2"]
+block_comment = ["{#", "#}"]

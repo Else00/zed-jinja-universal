@@ -1,0 +1,4 @@
+name = "Solidity-Jinja"
+grammar = "jinja2"
+path_suffixes = ["sol.jinja", "sol.jinja2", "sol.j2"]
+block_comment = ["{#", "#}"]

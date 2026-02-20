@@ -1,0 +1,4 @@
+name = "ucode-Jinja"
+grammar = "jinja2"
+path_suffixes = ["uc.jinja", "uc.jinja2", "uc.j2"]
+block_comment = ["{#", "#}"]

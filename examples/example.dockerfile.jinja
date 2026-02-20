@@ -1,0 +1,25 @@
+# {{ description }}
+
+FROM {{ base_image }}:{{ tag }}
+
+{% if use_args %}
+{% for arg in build_args %}
+ARG {{ arg.name }}={{ arg.default }}
+{% endfor %}
+{% endif %}
+
+WORKDIR {{ workdir }}
+
+{% for cmd in commands %}
+RUN {{ cmd }}
+{% endfor %}
+
+{% if use_env %}
+{% for env in env_vars %}
+ENV {{ env.name }}={{ env.value }}
+{% endfor %}
+{% endif %}
+
+COPY {{ copy_src }} {{ copy_dest }}
+
+CMD ["{{ entrypoint }}"{% for arg in entrypoint_args %}, "{{ arg }}"{% endfor %}]

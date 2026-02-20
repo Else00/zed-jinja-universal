@@ -1,0 +1,4 @@
+name = "SSH Config-Jinja"
+grammar = "jinja2"
+path_suffixes = ["config.jinja", "config.jinja2", "config.j2", "ssh_config.jinja", "ssh_config.jinja2", "ssh_config.j2"]
+block_comment = ["{#", "#}"]

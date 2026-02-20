@@ -1,0 +1,4 @@
+name = "Kconfig-Jinja"
+grammar = "jinja2"
+path_suffixes = ["Kconfig.jinja", "Kconfig.jinja2", "Kconfig.j2"]
+block_comment = ["{#", "#}"]

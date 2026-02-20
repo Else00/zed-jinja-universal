@@ -1,0 +1,4 @@
+name = "ArkTS Language-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ets.jinja", "ets.jinja2", "ets.j2"]
+block_comment = ["{#", "#}"]

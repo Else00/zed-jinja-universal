@@ -1,0 +1,4 @@
+name = "Navi-Jinja"
+grammar = "jinja2"
+path_suffixes = ["navi.jinja", "navi.jinja2", "navi.j2", "nv.jinja", "nv.jinja2", "nv.j2"]
+block_comment = ["{#", "#}"]

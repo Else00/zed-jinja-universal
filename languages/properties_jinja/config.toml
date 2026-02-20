@@ -1,0 +1,4 @@
+name = "Properties-Jinja"
+grammar = "jinja2"
+path_suffixes = ["properties.jinja", "properties.jinja2", "properties.j2"]
+block_comment = ["{#", "#}"]

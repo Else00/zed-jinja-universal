@@ -1,0 +1,12 @@
+// {{ description }}
+
+const {{ variable_name }} = {{ default_value }};
+
+function {{ function_name }}({% for arg in args %}{{ arg }}{{ ", " if not loop.last }}{% endfor %}) {
+    {% if use_strict %}
+    "use strict";
+    {% endif %}
+    return {{ variable_name }};
+}
+
+module.exports = { {{ function_name }} };

@@ -1,0 +1,4 @@
+name = "Terraform-Jinja"
+grammar = "jinja2"
+path_suffixes = ["hcl.jinja", "hcl.jinja2", "hcl.j2", "tf.jinja", "tf.jinja2", "tf.j2"]
+block_comment = ["{#", "#}"]

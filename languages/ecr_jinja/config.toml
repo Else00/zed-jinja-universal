@@ -1,0 +1,4 @@
+name = "ECR-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ecr.jinja", "ecr.jinja2", "ecr.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Cooklang-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cook.jinja", "cook.jinja2", "cook.j2"]
+block_comment = ["{#", "#}"]

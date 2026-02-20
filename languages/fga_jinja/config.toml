@@ -1,0 +1,4 @@
+name = "OpenFGA-Jinja"
+grammar = "jinja2"
+path_suffixes = ["fga.jinja", "fga.jinja2", "fga.j2"]
+block_comment = ["{#", "#}"]

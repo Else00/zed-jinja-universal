@@ -1,0 +1,4 @@
+name = "HOCON-Jinja"
+grammar = "jinja2"
+path_suffixes = ["conf.jinja", "conf.jinja2", "conf.j2", "hocon.jinja", "hocon.jinja2", "hocon.j2"]
+block_comment = ["{#", "#}"]

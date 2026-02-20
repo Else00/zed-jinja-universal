@@ -1,0 +1,4 @@
+name = "C#-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cs.jinja", "cs.jinja2", "cs.j2", "csx.jinja", "csx.jinja2", "csx.j2"]
+block_comment = ["{#", "#}"]

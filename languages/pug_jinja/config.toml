@@ -1,0 +1,4 @@
+name = "Pug-Jinja"
+grammar = "jinja2"
+path_suffixes = ["pug.jinja", "pug.jinja2", "pug.j2"]
+block_comment = ["{#", "#}"]

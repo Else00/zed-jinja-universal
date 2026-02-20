@@ -1,0 +1,4 @@
+name = "MATLAB-Jinja"
+grammar = "jinja2"
+path_suffixes = ["m.jinja", "m.jinja2", "m.j2"]
+block_comment = ["{#", "#}"]

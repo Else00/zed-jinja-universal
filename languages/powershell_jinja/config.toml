@@ -1,0 +1,4 @@
+name = "PowerShell-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ps1.jinja", "ps1.jinja2", "ps1.j2", "psm1.jinja", "psm1.jinja2", "psm1.j2"]
+block_comment = ["{#", "#}"]

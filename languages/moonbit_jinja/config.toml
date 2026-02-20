@@ -1,0 +1,4 @@
+name = "MoonBit-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mbt.jinja", "mbt.jinja2", "mbt.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Standard ML-Jinja"
+grammar = "jinja2"
+path_suffixes = ["fun.jinja", "fun.jinja2", "fun.j2", "sig.jinja", "sig.jinja2", "sig.j2", "sml.jinja", "sml.jinja2", "sml.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "PureScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["purs.jinja", "purs.jinja2", "purs.j2"]
+block_comment = ["{#", "#}"]

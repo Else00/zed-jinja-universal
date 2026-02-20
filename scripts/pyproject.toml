@@ -1,0 +1,62 @@
+[project]
+name = "jinja-universal-scripts"
+version = "0.1.0"
+description = "Scripts for maintaining the jinja-universal Zed extension"
+requires-python = ">=3.13"
+
+[dependency-groups]
+dev = ["basedpyright", "pytest", "pytest-cov", "ruff"]
+
+[[tool.basedpyright.executionEnvironments]]
+root = "tests"
+extraPaths = ["."]
+reportUnusedParameter = "hint"
+reportUnusedCallResult = "hint"
+reportUnknownArgumentType = "hint"
+reportUnknownLambdaType = "hint"
+
+[tool.coverage.run]
+source = ["."]
+omit = [
+  "tests/*",
+  ".venv/*",
+  "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+
+[tool.pytest]
+testpaths = ["tests/unit"]
+markers = [
+  "integration: real network/git integration tests for sync_zed_languages.py",
+]
+addopts = [
+  "--cov-branch",
+  "--cov-report=html",
+  "--cov-report=term-missing",
+  "--cov=.",
+  "--cov-fail-under=100",
+  "-ra",
+]
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = [
+  "E",  # pycodestyle errors (formatting-related issues like indentation, whitespace, etc.)
+  "W",  # pycodestyle warnings (style warnings)
+  "F",  # Pyflakes (unused imports/variables, undefined names, etc.)
+  "I",  # isort (import sorting and grouping)
+  "UP",  # pyupgrade (upgrade syntax for newer Python versions)
+  "B",  # flake8-bugbear (likely bugs and design problems)
+  "SIM",  # flake8-simplify (simplify overly complex constructs)
+  "A",  # flake8-builtins (shadowing Python builtins like `list`, `dict`, etc.)
+  "C90",  # mccabe complexity (cyclomatic complexity checks)
+  "NPY",  # NumPy-specific style and correctness rules (ruff's numpy rule set)
+]
+
+[tool.basedpyright]
+include = ["common.py", "generate.py", "sync_zed_languages.py", "tests"]

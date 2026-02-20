@@ -1,0 +1,4 @@
+name = "Clojure-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bb.jinja", "bb.jinja2", "bb.j2", "clj.jinja", "clj.jinja2", "clj.j2", "cljc.jinja", "cljc.jinja2", "cljc.j2", "cljd.jinja", "cljd.jinja2", "cljd.j2", "cljs.jinja", "cljs.jinja2", "cljs.j2", "edn.jinja", "edn.jinja2", "edn.j2"]
+block_comment = ["{#", "#}"]

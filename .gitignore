@@ -1,0 +1,40 @@
+*.wasm
+
+# macOS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python virtual environments
+.venv/
+
+# Python/tool caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.basedpyright/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local caches/temp
+.cache/
+.zed-cache/
+.uv/
+dist/
+build/
+*.egg-info/
+tmp/
+temp/
+*.tmp

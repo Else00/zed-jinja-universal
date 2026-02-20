@@ -1,0 +1,4 @@
+name = "Prolog-Jinja"
+grammar = "jinja2"
+path_suffixes = ["P.jinja", "P.jinja2", "P.j2", "pl.jinja", "pl.jinja2", "pl.j2", "pro.jinja", "pro.jinja2", "pro.j2"]
+block_comment = ["{#", "#}"]

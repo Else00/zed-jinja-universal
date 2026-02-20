@@ -1,0 +1,4 @@
+name = "Elixir-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ex.jinja", "ex.jinja2", "ex.j2", "exs.jinja", "exs.jinja2", "exs.j2"]
+block_comment = ["{#", "#}"]

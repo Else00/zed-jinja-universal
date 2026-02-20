@@ -1,0 +1,4 @@
+name = "CFML (Markup)-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cfm.jinja", "cfm.jinja2", "cfm.j2", "cfml.jinja", "cfml.jinja2", "cfml.j2"]
+block_comment = ["{#", "#}"]

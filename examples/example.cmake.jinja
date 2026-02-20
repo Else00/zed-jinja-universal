@@ -1,0 +1,25 @@
+#!/bin/bash
+# {{ description }}
+
+set -e{% if use_verbose %}u{% endif %}
+
+{% for var in variables %}
+{{ var.name }}="{{ var.value }}"
+{% endfor %}
+
+{{ function_name }}() {
+    {% if use_logging %}
+    echo "Running {{ function_name }}..."
+    {% endif %}
+    {% for cmd in commands %}
+    {{ cmd }}
+    {% endfor %}
+}
+
+{% if use_main %}
+main() {
+    {{ function_name }}
+}
+
+main "$@"
+{% endif %}

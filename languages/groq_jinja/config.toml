@@ -1,0 +1,4 @@
+name = "GROQ-Jinja"
+grammar = "jinja2"
+path_suffixes = ["groq.jinja", "groq.jinja2", "groq.j2"]
+block_comment = ["{#", "#}"]

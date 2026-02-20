@@ -1,0 +1,4 @@
+name = "Tree-sitter Query-Jinja"
+grammar = "jinja2"
+path_suffixes = ["scm.jinja", "scm.jinja2", "scm.j2"]
+block_comment = ["{#", "#}"]

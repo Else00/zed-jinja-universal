@@ -1,0 +1,2456 @@
+# Languages configuration for jinja-universal
+# source: native (Zed built-in), extension (Zed extension), extra (manual)
+
+[actionscript]
+name = "ActionScript"
+zed_language = "actionscript"
+extensions = ["as"]
+source = "extension"
+
+[ada]
+name = "Ada"
+zed_language = "ada"
+extensions = ["adb", "ads"]
+source = "extension"
+
+[agda]
+name = "Agda"
+zed_language = "agda"
+extensions = ["agda"]
+source = "extension"
+
+[aiken]
+name = "Aiken"
+zed_language = "aiken"
+extensions = ["ak"]
+source = "extension"
+
+[alex]
+name = "Alex"
+zed_language = "alex"
+extensions = ["x"]
+source = "extension"
+
+[amber]
+name = "Amber"
+zed_language = "amber"
+extensions = ["ab"]
+source = "extension"
+
+[angular]
+name = "Angular"
+zed_language = "angular"
+extensions = ["component.html", "ng.html"]
+source = "extension"
+
+[animationtxt]
+name = "Animation.txt"
+zed_language = "animationtxt"
+extensions = ["animation.txt"]
+source = "extension"
+
+[antlers]
+name = "Statamic Antlers"
+zed_language = "antlers"
+extensions = ["antlers.html"]
+source = "extension"
+
+[apache_avro]
+name = "Apache Avro (IDL)"
+zed_language = "apache_avro"
+extensions = ["avdl"]
+source = "extension"
+
+[apl]
+name = "APL"
+zed_language = "apl"
+extensions = ["apl"]
+source = "extra"
+
+[arkts]
+name = "ArkTS Language"
+zed_language = "arkts"
+extensions = ["ets"]
+source = "extension"
+
+[asciidoc]
+name = "AsciiDoc"
+zed_language = "asciidoc"
+extensions = ["adoc", "asciidoc", "ad", "asc"]
+source = "extension"
+
+[asciidoc_inline]
+name = "AsciiDoc Inline"
+zed_language = "asciidoc_inline"
+extensions = []
+source = "extension"
+
+[asn1]
+name = "ASN.1"
+zed_language = "asn1"
+extensions = ["mib"]
+source = "extension"
+
+[ass]
+name = "ass"
+zed_language = "ass"
+extensions = ["ass", "ssa"]
+source = "extension"
+
+[assembly]
+name = "Assembly"
+zed_language = "asm"
+extensions = ["asm", "s", "S"]
+source = "extension"
+
+[astro]
+name = "Astro"
+zed_language = "astro"
+extensions = ["astro"]
+source = "extension"
+
+[authzed]
+name = "SpiceDB"
+zed_language = "authzed"
+extensions = ["zed"]
+source = "extension"
+
+[autohotkey]
+name = "AutoHotkey"
+zed_language = "autohotkey"
+extensions = ["ahk"]
+source = "extension"
+
+[awk]
+name = "AWK"
+zed_language = "awk"
+extensions = ["awk"]
+source = "extension"
+
+[baml]
+name = "Baml"
+zed_language = "baml"
+extensions = ["baml"]
+source = "extension"
+
+[basic]
+name = "BASIC"
+zed_language = "basic"
+extensions = ["bas"]
+source = "extra"
+
+[batch]
+name = "Batch"
+zed_language = "batch"
+extensions = ["bat", "cmd"]
+source = "extra"
+
+[bazelrc]
+name = "bazelrc"
+zed_language = "bazelrc"
+extensions = ["bazelrc"]
+source = "extension"
+
+[beancount]
+name = "Beancount"
+zed_language = "beancount"
+extensions = ["beancount", "bean"]
+source = "extension"
+
+[bend]
+name = "Bend"
+zed_language = "bend"
+extensions = ["bend"]
+source = "extension"
+
+[bibtex]
+name = "BibTeX"
+zed_language = "bibtex"
+extensions = ["bib", "bibtex", "biblatex"]
+source = "extension"
+
+[bicep]
+name = "Bicep"
+zed_language = "bicep"
+extensions = ["bicep"]
+source = "extension"
+
+[bicep_params]
+name = "Bicep Parameters"
+zed_language = "bicep_params"
+extensions = ["bicepparam"]
+source = "extension"
+
+[bison]
+name = "Bison"
+zed_language = "bison"
+extensions = ["y", "yy"]
+source = "extension"
+
+[bitbake]
+name = "bitbake"
+zed_language = "bitbake"
+extensions = ["bb", "bbappend", "bbclass", "inc", "conf"]
+source = "extension"
+
+[blade]
+name = "Blade"
+zed_language = "blade"
+extensions = ["blade.php"]
+source = "extension"
+
+[blueprint]
+name = "Blueprint"
+zed_language = "blueprint"
+extensions = ["blp"]
+source = "extension"
+
+[bqn]
+name = "Bqn"
+zed_language = "bqn"
+extensions = ["bqn"]
+source = "extension"
+
+[brainfuck]
+name = "Brainfuck"
+zed_language = "brainfuck"
+extensions = ["bf"]
+source = "extension"
+
+[bsl]
+name = "Bsl"
+zed_language = "bsl"
+extensions = ["bsl"]
+source = "extension"
+
+[bsv]
+name = "Bluespec SystemVerilog"
+zed_language = "bsv"
+extensions = ["bsv"]
+source = "extension"
+
+[c]
+name = "C"
+zed_language = "c"
+extensions = ["c"]
+source = "native"
+
+[c3]
+name = "C3"
+zed_language = "c3"
+extensions = ["c3", "c3i"]
+source = "extension"
+
+[cabal]
+name = "Cabal"
+zed_language = "cabal"
+extensions = ["cabal"]
+source = "extension"
+
+[caddyfile]
+name = "Caddyfile"
+zed_language = "caddyfile"
+extensions = ["Caddyfile", "caddyfile"]
+source = "extension"
+
+[cadence]
+name = "Cadence"
+zed_language = "cadence"
+extensions = ["cdc"]
+source = "extension"
+
+[cairo]
+name = "Cairo"
+zed_language = "cairo"
+extensions = ["cairo"]
+source = "extension"
+
+[candid]
+name = "Candid"
+zed_language = "candid"
+extensions = ["did"]
+source = "extension"
+
+[capnp]
+name = "Cap'n Proto"
+zed_language = "capnp"
+extensions = ["capnp"]
+source = "extension"
+
+[cds]
+name = "Cds"
+zed_language = "cds"
+extensions = []
+source = "extension"
+
+[cedar]
+name = "Cedar"
+zed_language = "cedar"
+extensions = ["cedar"]
+source = "extension"
+
+[cfengine]
+name = "CFEngine"
+zed_language = "cfengine"
+extensions = ["cf", "cfengine", "cf3", "cfengine3", "cf.sub"]
+source = "extension"
+
+[cfhtml]
+name = "CFML (Markup)"
+zed_language = "cfhtml"
+extensions = ["cfm", "cfml"]
+source = "extension"
+
+[cfml]
+name = "CFML (Component, Tag-Based)"
+zed_language = "cfml"
+extensions = []
+source = "extension"
+
+[cfscript]
+name = "CFML (Script)"
+zed_language = "cfscript"
+extensions = ["cfs"]
+source = "extension"
+
+[cherri]
+name = "Cherri"
+zed_language = "cherri"
+extensions = ["cherri"]
+source = "extension"
+
+[circom]
+name = "Circom"
+zed_language = "circom"
+extensions = ["circom"]
+source = "extension"
+
+[clarity]
+name = "Clarity"
+zed_language = "clarity"
+extensions = ["clar"]
+source = "extension"
+
+[clojure]
+name = "Clojure"
+zed_language = "clojure"
+extensions = ["clj", "cljc", "cljs", "cljd", "edn", "bb"]
+source = "extension"
+
+[cmake]
+name = "CMake"
+zed_language = "cmake"
+extensions = ["cmake"]
+source = "extension"
+
+[cobol]
+name = "COBOL"
+zed_language = "cobol"
+extensions = ["cob", "cbl"]
+source = "extension"
+
+[codeowners]
+name = "CODEOWNERS"
+zed_language = "codeowners"
+extensions = ["CODEOWNERS", "CODEOWNERS.txt"]
+source = "extension"
+
+[coffeescript]
+name = "CoffeeScript"
+zed_language = "coffeescript"
+extensions = ["coffee"]
+source = "extension"
+
+[coi]
+name = "Coi"
+zed_language = "coi"
+extensions = ["coi", "d.coi"]
+source = "extension"
+
+[comment]
+name = "comment"
+zed_language = "comment"
+extensions = []
+source = "extension"
+
+[conl]
+name = "CONL"
+zed_language = "conl"
+extensions = ["conl"]
+source = "extension"
+
+[cooklang]
+name = "Cooklang"
+zed_language = "cooklang"
+extensions = ["cook"]
+source = "extension"
+
+[cpp]
+name = "C++"
+zed_language = "cpp"
+extensions = ["cc", "cpp", "cxx", "hpp", "h", "hh", "hxx", "h++", "H", "C", "c++", "inl", "ino", "ixx", "ipp", "cu", "cuh"]
+source = "native"
+
+[cpp2]
+name = "Cpp2"
+zed_language = "cpp2"
+extensions = ["cpp2", "h2"]
+source = "extension"
+
+[cql]
+name = "CQL"
+zed_language = "cql"
+extensions = ["cql"]
+source = "extension"
+
+[crystal]
+name = "Crystal"
+zed_language = "crystal"
+extensions = ["cr"]
+source = "extension"
+
+[csharp]
+name = "C#"
+zed_language = "c_sharp"
+extensions = ["cs", "csx"]
+source = "extension"
+
+[csound]
+name = "Csound"
+zed_language = "csound"
+extensions = ["csd", "orc", "sco", "udo"]
+source = "extension"
+
+[css]
+name = "CSS"
+zed_language = "css"
+extensions = ["css", "pcss", "postcss"]
+source = "native"
+
+[csv]
+name = "CSV"
+zed_language = "csv"
+extensions = ["csv"]
+source = "extension"
+
+[cuda]
+name = "CUDA"
+zed_language = "cuda"
+extensions = ["cu", "cuh"]
+source = "extra"
+
+[cue]
+name = "CUE"
+zed_language = "cue"
+extensions = ["cue"]
+source = "extension"
+
+[curry]
+name = "Curry"
+zed_language = "curry"
+extensions = ["curry"]
+source = "extension"
+
+[cylc]
+name = "Cylc"
+zed_language = "cylc"
+extensions = ["cylc"]
+source = "extension"
+
+[cypher]
+name = "Cypher"
+zed_language = "cypher"
+extensions = ["cypher", "cql", "cyp"]
+source = "extension"
+
+[cython]
+name = "Cython"
+zed_language = "cython"
+extensions = ["pyx", "pxd", "pxi"]
+source = "extension"
+
+[d]
+name = "D"
+zed_language = "d"
+extensions = ["d", "dd", "di"]
+source = "extension"
+
+[d2]
+name = "D2"
+zed_language = "d2"
+extensions = ["d2"]
+source = "extension"
+
+[dafny]
+name = "Dafny"
+zed_language = "dafny"
+extensions = ["dfy"]
+source = "extension"
+
+[dart]
+name = "Dart"
+zed_language = "dart"
+extensions = ["dart"]
+source = "extension"
+
+[dbml]
+name = "DBML"
+zed_language = "dbml"
+extensions = ["dbml"]
+source = "extension"
+
+[demotape]
+name = "Demo Tape"
+zed_language = "demotape"
+extensions = ["tape"]
+source = "extension"
+
+[desktop]
+name = "Desktop Entry"
+zed_language = "desktop"
+extensions = ["desktop", "directory"]
+source = "extension"
+
+[devicetree]
+name = "devicetree"
+zed_language = "devicetree"
+extensions = ["dts", "dtsi", "dtso", "its"]
+source = "extension"
+
+[dhall]
+name = "Dhall"
+zed_language = "dhall"
+extensions = ["dhall"]
+source = "extra"
+
+[diff]
+name = "Diff"
+zed_language = "diff"
+extensions = ["diff", "patch"]
+source = "native"
+
+[docker_compose]
+name = "Docker Compose"
+zed_language = "docker-compose"
+filenames = ["docker-compose.yml", "docker-compose.yaml", "compose.yml", "compose.yaml"]
+source = "extra"
+
+[dockerfile]
+name = "Dockerfile"
+zed_language = "dockerfile"
+extensions = ["Dockerfile", "dockerfile", "Containerfile"]
+source = "extension"
+
+[dot]
+name = "DOT"
+zed_language = "dot"
+extensions = ["dot", "gv", "DOT"]
+source = "extension"
+
+[duckyscript]
+name = "DuckyScript"
+zed_language = "duckyscript"
+extensions = ["txt"]
+source = "extension"
+
+[dune]
+name = "Dune"
+zed_language = "dune"
+extensions = ["dune", "dune-project", "dune-workspace"]
+source = "extension"
+
+[earthfile]
+name = "Earthfile"
+zed_language = "earthfile"
+extensions = ["Earthfile"]
+source = "extension"
+
+[ecr]
+name = "ECR"
+zed_language = "ecr"
+extensions = ["ecr"]
+source = "extension"
+
+[edge]
+name = "Edge"
+zed_language = "edge"
+extensions = ["edge"]
+source = "extension"
+
+[editorconfig]
+name = "Editorconfig"
+zed_language = "editorconfig"
+extensions = ["editorconfig"]
+source = "extension"
+
+[el]
+name = "EL"
+zed_language = "el"
+extensions = []
+source = "extension"
+
+[elisp]
+name = "Elisp"
+zed_language = "elisp"
+extensions = ["el"]
+source = "extension"
+
+[elixir]
+name = "Elixir"
+zed_language = "elixir"
+extensions = ["ex", "exs"]
+source = "extension"
+
+[elm]
+name = "Elm"
+zed_language = "elm"
+extensions = ["elm"]
+source = "extension"
+
+[embedded_template]
+name = "Embedded Template"
+zed_language = "embedded_template"
+extensions = []
+source = "extension"
+
+[emmyluadoc]
+name = "EmmyLuadoc"
+zed_language = "emmyluadoc"
+extensions = []
+source = "extension"
+
+[env]
+name = "Env"
+zed_language = "env"
+extensions = ["env", "envrc"]
+source = "extension"
+
+[erlang]
+name = "Erlang"
+zed_language = "erlang"
+extensions = ["erl", "hrl", "xrl", "yrl"]
+source = "extension"
+
+[exograph]
+name = "Exograph"
+zed_language = "exograph"
+extensions = ["exo"]
+source = "extension"
+
+[fennel]
+name = "Fennel"
+zed_language = "fennel"
+extensions = ["fnl"]
+source = "extra"
+
+[ferret]
+name = "Ferret"
+zed_language = "ferret"
+extensions = ["fer"]
+source = "extension"
+
+[ferret_lockfile]
+name = "Ferret Lockfile"
+zed_language = "ferret_lockfile"
+extensions = ["ferret.lock"]
+source = "extension"
+
+[ferret_manifest]
+name = "Ferret Manifest"
+zed_language = "ferret_manifest"
+extensions = ["fer.ret"]
+source = "extension"
+
+[fga]
+name = "OpenFGA"
+zed_language = "fga"
+extensions = ["fga"]
+source = "extension"
+
+[fift]
+name = "Fift"
+zed_language = "fift"
+extensions = ["fif"]
+source = "extension"
+
+[filter]
+name = "Filter"
+zed_language = "filter"
+extensions = []
+source = "extension"
+
+[firebase_rules]
+name = "Firebase Rules"
+zed_language = "firebase_rules"
+extensions = []
+source = "extension"
+
+[fish]
+name = "Fish"
+zed_language = "fish"
+extensions = ["fish"]
+source = "extension"
+
+[flatbuffers]
+name = "FlatBuffers"
+zed_language = "flatbuffers"
+extensions = ["fbs"]
+source = "extension"
+
+[forth]
+name = "Forth"
+zed_language = "forth"
+extensions = ["fth", "4th"]
+source = "extra"
+
+[fortran]
+name = "Fortran"
+zed_language = "fortran"
+extensions = ["f", "f90", "f95", "f03", "f08", "F", "F90", "F95", "F03", "F08"]
+source = "extension"
+
+[fountain]
+name = "Fountain"
+zed_language = "fountain"
+extensions = ["fountain", "spmd"]
+source = "extension"
+
+[freemarker]
+name = "Freemarker"
+zed_language = "freemarker"
+extensions = ["ftl"]
+source = "extension"
+
+[fsharp]
+name = "F#"
+zed_language = "fsharp"
+extensions = ["fs", "fsx", "fsi", "fsscript"]
+source = "extension"
+
+[func]
+name = "Func"
+zed_language = "func"
+extensions = ["fc"]
+source = "extension"
+
+[gcode]
+name = "G-code"
+zed_language = "gcode"
+extensions = ["ply", "sub", "g", "tap", "nc", "ncd", "gco", "bfb", "gcode", "eia", "tcn", "fgc", "gp", "knc", "ssb", "dnc", "ncf", "xpi", "lib", "min", "nci", "fnc", "spf", "cnc", "din", "g00", "mmg", "ecs", "gcd", "m", "mpt", "ncg", "ncp", "sbp", "anc", "aptcl", "mpf", "hnc", "ngc", "prg", "pim", "apt", "001", "cls", "fan", "plt", "pu1", "pit", "rol", "S", "gc", "out"]
+source = "extension"
+
+[gdscript]
+name = "GDScript"
+zed_language = "gdscript"
+extensions = ["gd"]
+source = "extension"
+
+[gdshader]
+name = "GDShader"
+zed_language = "gdshader"
+extensions = ["gdshader", "gdshaderinc"]
+source = "extension"
+
+[gemini]
+name = "Gemini"
+zed_language = "gemini"
+extensions = ["gmi", "gemini"]
+source = "extension"
+
+[gherkin]
+name = "Gherkin"
+zed_language = "gherkin"
+extensions = ["feature", "gherkin"]
+source = "extension"
+
+[ghostty]
+name = "Ghostty"
+zed_language = "ghostty"
+extensions = ["ghostty"]
+source = "extension"
+
+[git_config]
+name = "Git Config"
+zed_language = "git_config"
+extensions = []
+source = "extension"
+
+[git_rebase]
+name = "Git Rebase"
+zed_language = "git_rebase"
+extensions = []
+source = "extension"
+
+[gitattributes]
+name = "Git Attributes"
+zed_language = "gitattributes"
+extensions = ["gitattributes"]
+source = "extension"
+
+[gitcommit]
+name = "Git Commit"
+zed_language = "gitcommit"
+extensions = ["TAG_EDITMSG", "MERGE_MSG", "COMMIT_EDITMSG", "NOTES_EDITMSG", "EDIT_DESCRIPTION"]
+source = "native"
+
+[gitignore]
+name = "Git Ignore"
+zed_language = "gitignore"
+extensions = ["containerignore", "cursorignore", "dockerignore", "eslintignore", "fdignore", "gitignore", "git-blame-ignore-revs", "ignore", "npmignore", "prettierignore", "rgignore", "vscodeignore"]
+source = "extension"
+
+[gleam]
+name = "Gleam"
+zed_language = "gleam"
+extensions = ["gleam"]
+source = "extension"
+
+[glimmer]
+name = "Handlebars"
+zed_language = "glimmer"
+extensions = ["hbs", "handlebars"]
+source = "extension"
+
+[glimmer_javascript]
+name = "Glimmer (JavaScript)"
+zed_language = "glimmer_javascript"
+extensions = ["gjs"]
+source = "extension"
+
+[glimmer_typescript]
+name = "Glimmer (TypeScript)"
+zed_language = "glimmer_typescript"
+extensions = ["gts"]
+source = "extension"
+
+[glsl]
+name = "GLSL"
+zed_language = "glsl"
+extensions = ["frag", "glsl", "shader", "vert"]
+source = "extra"
+
+[go]
+name = "Go"
+zed_language = "go"
+extensions = ["go"]
+source = "native"
+
+[godot_resource]
+name = "Godot Resource"
+zed_language = "godot_resource"
+extensions = ["gdextension", "godot", "import", "tres", "tscn"]
+source = "extension"
+
+[gomod]
+name = "Go Mod"
+zed_language = "gomod"
+extensions = ["mod"]
+source = "native"
+
+[gosum]
+name = "Go Sum"
+zed_language = "gosum"
+extensions = ["go.sum"]
+source = "extension"
+
+[gotmpl]
+name = "Go Text Template"
+zed_language = "gotmpl"
+extensions = ["gotmpl", "txt.gotmpl", "txt.gotpl", "go.txt", "gtpl"]
+source = "extension"
+
+[gowork]
+name = "Go Work"
+zed_language = "gowork"
+extensions = ["work"]
+source = "native"
+
+[gpr]
+name = "GPR"
+zed_language = "gpr"
+extensions = ["gpr"]
+source = "extension"
+
+[grain]
+name = "Grain"
+zed_language = "grain"
+extensions = ["gr"]
+source = "extra"
+
+[graphql]
+name = "GraphQL"
+zed_language = "graphql"
+extensions = ["gql", "graphql", "graphqls"]
+source = "extension"
+
+[gren]
+name = "Gren"
+zed_language = "gren"
+extensions = ["gren"]
+source = "extension"
+
+[greycat]
+name = "GreyCat"
+zed_language = "greycat"
+extensions = ["gcl"]
+source = "extension"
+
+[gritql]
+name = "GritQL"
+zed_language = "gritql"
+extensions = ["grit"]
+source = "extension"
+
+[gritqlsnippet]
+name = "GritQL Snippet"
+zed_language = "gritqlsnippet"
+extensions = ["gritqlsnippet"]
+source = "extension"
+
+[groovy]
+name = "Groovy"
+zed_language = "groovy"
+extensions = ["groovy", "gradle", "Jenkinsfile", "JenkinsFile"]
+source = "extension"
+
+[groq]
+name = "GROQ"
+zed_language = "groq"
+extensions = ["groq"]
+source = "extension"
+
+[haml]
+name = "Haml"
+zed_language = "haml"
+extensions = ["haml", "html.haml"]
+source = "extension"
+
+[hare]
+name = "Hare"
+zed_language = "hare"
+extensions = ["ha"]
+source = "extension"
+
+[haskell]
+name = "Haskell"
+zed_language = "haskell"
+extensions = ["hs"]
+source = "extension"
+
+[haxe]
+name = "Haxe"
+zed_language = "haxe"
+extensions = ["hx"]
+source = "extension"
+
+[heex]
+name = "HEEX"
+zed_language = "heex"
+extensions = ["heex"]
+source = "extension"
+
+[helm]
+name = "Helm"
+zed_language = "helm"
+extensions = ["helmignore"]
+source = "extension"
+
+[hlsl]
+name = "HLSL"
+zed_language = "hlsl"
+extensions = ["hlsl"]
+source = "extension"
+
+[hocon]
+name = "HOCON"
+zed_language = "hocon"
+extensions = ["conf", "hocon"]
+source = "extension"
+
+[hql]
+name = "HQL"
+zed_language = "hql"
+extensions = ["hx"]
+source = "extension"
+
+[html]
+name = "Html"
+zed_language = "html"
+extensions = []
+source = "extension"
+
+[htmldjango]
+name = "Django"
+zed_language = "htmldjango"
+extensions = ["dj.html", "dj.md", "dj.txt"]
+source = "extension"
+
+[http]
+name = "http"
+zed_language = "http"
+extensions = ["http"]
+source = "extension"
+
+[huff]
+name = "Huff"
+zed_language = "huff"
+extensions = ["huff"]
+source = "extension"
+
+[hurl]
+name = "Hurl"
+zed_language = "hurl"
+extensions = ["hurl"]
+source = "extension"
+
+[hxml]
+name = "HXML"
+zed_language = "hxml"
+extensions = ["hxml"]
+source = "extension"
+
+[hylo]
+name = "Hylo"
+zed_language = "hylo"
+extensions = ["hylo"]
+source = "extra"
+
+[hyprlang]
+name = "Hyprlang"
+zed_language = "hyprlang"
+extensions = ["hl", "conf"]
+source = "extension"
+
+[ical]
+name = "Ical"
+zed_language = "ical"
+extensions = []
+source = "extension"
+
+[idris]
+name = "Idris"
+zed_language = "idris"
+extensions = []
+source = "extension"
+
+[inform6]
+name = "Inform 6"
+zed_language = "inform6"
+extensions = ["inf", "h"]
+source = "extension"
+
+[ini]
+name = "INI"
+zed_language = "ini"
+extensions = ["ini", "cfg", "conf"]
+source = "extension"
+
+[ink]
+name = "Ink"
+zed_language = "ink"
+extensions = ["ink"]
+source = "extension"
+
+[io]
+name = "Io"
+zed_language = "io"
+extensions = ["io"]
+source = "extra"
+
+[ion]
+name = "ion"
+zed_language = "ion"
+extensions = ["ion"]
+source = "extension"
+
+[ion_schema]
+name = "ion_schema"
+zed_language = "ion_schema"
+extensions = ["isl"]
+source = "extension"
+
+[isle]
+name = "ISLE"
+zed_language = "isle"
+extensions = ["isle"]
+source = "extension"
+
+[jai]
+name = "Jai"
+zed_language = "jai"
+extensions = ["jai"]
+source = "extension"
+
+[janet]
+name = "Janet"
+zed_language = "janet"
+extensions = ["janet"]
+source = "extension"
+
+[java]
+name = "Java"
+zed_language = "java"
+extensions = ["java"]
+source = "extension"
+
+[javascript]
+name = "JavaScript"
+zed_language = "javascript"
+extensions = ["js", "jsx", "cjs", "mjs"]
+source = "native"
+
+[jdl]
+name = "Jdl"
+zed_language = "jdl"
+extensions = ["jdl"]
+source = "extension"
+
+[jinja]
+name = "Jinja"
+zed_language = "jinja"
+extensions = []
+source = "extension"
+
+[jinja2]
+name = "Jinja2"
+zed_language = "jinja2"
+extensions = ["jinja", "jinja2", "j2"]
+source = "extension"
+
+[jq]
+name = "jq"
+zed_language = "jq"
+extensions = ["jq"]
+source = "extension"
+
+[jsdoc]
+name = "JSDoc"
+zed_language = "jsdoc"
+extensions = []
+source = "native"
+
+[json]
+name = "JSON"
+zed_language = "json"
+extensions = ["json", "geojson"]
+source = "native"
+
+[json5]
+name = "JSON5"
+zed_language = "json5"
+extensions = ["json5"]
+source = "extension"
+
+[jsonc]
+name = "JSONC"
+zed_language = "jsonc"
+extensions = ["jsonc"]
+source = "native"
+
+[jsonl]
+name = "JSON Lines"
+zed_language = "json"
+extensions = ["jsonl", "ndjson"]
+source = "native"
+
+[jsonnet]
+name = "Jsonnet"
+zed_language = "jsonnet"
+extensions = ["jsonnet", "libsonnet"]
+source = "extension"
+
+[jsp]
+name = "JSP"
+zed_language = "jsp"
+extensions = ["jsp", "jspf", "tag"]
+source = "extension"
+
+[julia]
+name = "Julia"
+zed_language = "julia"
+extensions = ["jl"]
+source = "extension"
+
+[just]
+name = "Just"
+zed_language = "just"
+filenames = ["justfile", "Justfile", "JUSTFILE", "just"]
+source = "extension"
+
+[kcl]
+name = "KCL"
+zed_language = "kcl"
+extensions = ["k"]
+source = "extension"
+
+[kconfig]
+name = "Kconfig"
+zed_language = "kconfig"
+extensions = ["Kconfig"]
+source = "extension"
+
+[kdl]
+name = "KDL"
+zed_language = "kdl"
+extensions = ["kdl"]
+source = "extension"
+
+[koka]
+name = "Koka"
+zed_language = "koka"
+extensions = ["kk"]
+source = "extra"
+
+[kotlin]
+name = "Kotlin"
+zed_language = "kotlin"
+extensions = ["kt", "kts"]
+source = "extension"
+
+[koto]
+name = "Koto"
+zed_language = "koto"
+extensions = ["koto"]
+source = "extension"
+
+[latex]
+name = "LaTeX"
+zed_language = "latex"
+extensions = ["tex", "latex", "sty", "cls", "dtx", "ins"]
+source = "extension"
+
+[latte]
+name = "Latte"
+zed_language = "latte"
+extensions = ["latte"]
+source = "extension"
+
+[lean]
+name = "Lean"
+zed_language = "lean"
+extensions = ["lean"]
+source = "extension"
+
+[ledger]
+name = "Ledger"
+zed_language = "ledger"
+extensions = ["journal", "ledger", "ldg", "ldgr"]
+source = "extension"
+
+[less]
+name = "Less"
+zed_language = "less"
+extensions = ["less"]
+source = "extension"
+
+[lilypond]
+name = "LilyPond"
+zed_language = "lilypond"
+extensions = ["ily", "ly"]
+source = "extension"
+
+[lilypond_scheme]
+name = "LilyPond Scheme"
+zed_language = "lilypond_scheme"
+extensions = []
+source = "extension"
+
+[linkerscript]
+name = "Linker Script"
+zed_language = "linkerscript"
+extensions = ["ld"]
+source = "extension"
+
+[liquid]
+name = "Liquid"
+zed_language = "liquid"
+extensions = ["liquid"]
+source = "extension"
+
+[lisp]
+name = "Lisp"
+zed_language = "lisp"
+extensions = ["lisp", "lsp", "cl"]
+source = "extra"
+
+[llvm]
+name = "LLVM IR"
+zed_language = "llvm"
+extensions = ["ll"]
+source = "extension"
+
+[log]
+name = "LOG"
+zed_language = "log"
+extensions = ["log"]
+source = "extension"
+
+[logstash]
+name = "Logstash Config"
+zed_language = "logstash"
+extensions = ["conf"]
+source = "extension"
+
+[lox]
+name = "Lox"
+zed_language = "lox"
+extensions = ["lox"]
+source = "extension"
+
+[lua]
+name = "Lua"
+zed_language = "lua"
+extensions = ["lua"]
+source = "extension"
+
+[luau]
+name = "Luau"
+zed_language = "luau"
+extensions = ["luau"]
+source = "extension"
+
+[mach]
+name = "Mach"
+zed_language = "mach"
+extensions = ["mach"]
+source = "extension"
+
+[makefile]
+name = "Makefile"
+zed_language = "make"
+extensions = ["Makefile", "makefile", "mk", "GNUmakefile"]
+source = "extension"
+
+[markdown]
+name = "Markdown"
+zed_language = "markdown"
+extensions = ["md", "markdown", "mdwn", "MD"]
+source = "native"
+
+[markdown_inline]
+name = "Markdown Inline"
+zed_language = "markdown_inline"
+extensions = []
+source = "extension"
+
+[matlab]
+name = "MATLAB"
+zed_language = "matlab"
+extensions = ["m"]
+source = "extension"
+
+[mcfunction]
+name = "mcfunction"
+zed_language = "mcfunction"
+extensions = ["mcfunction"]
+source = "extension"
+
+[mdx]
+name = "MDX"
+zed_language = "mdx"
+extensions = ["mdx"]
+source = "extension"
+
+[menhir]
+name = "Menhir"
+zed_language = "menhir"
+extensions = ["mly"]
+source = "extension"
+
+[mermaid]
+name = "Mermaid"
+zed_language = "mermaid"
+extensions = ["mermaid", "mmd"]
+source = "extension"
+
+[microscript]
+name = "microScript"
+zed_language = "microscript"
+extensions = ["ms"]
+source = "extension"
+
+[mint]
+name = "Mint"
+zed_language = "mint"
+extensions = ["mint"]
+source = "extra"
+
+[modula2]
+name = "Modula-2"
+zed_language = "modula2"
+extensions = ["mod", "def"]
+source = "extra"
+
+[mojo]
+name = "Mojo"
+zed_language = "mojo"
+extensions = ["mojo", "🔥"]
+source = "extra"
+
+[moonbit]
+name = "MoonBit"
+zed_language = "moonbit"
+extensions = ["mbt"]
+source = "extension"
+
+[motoko]
+name = "Motoko"
+zed_language = "motoko"
+extensions = ["mo"]
+source = "extension"
+
+[move]
+name = "Move"
+zed_language = "move"
+extensions = ["move"]
+source = "extension"
+
+[msg]
+name = "OMNeT++ MSG"
+zed_language = "msg"
+extensions = ["msg"]
+source = "extension"
+
+[mustache]
+name = "Mustache"
+zed_language = "mustache"
+extensions = ["mustache"]
+source = "extension"
+
+[naive_xdr]
+name = "Naive Xdr"
+zed_language = "naive_xdr"
+extensions = []
+source = "extension"
+
+[navi]
+name = "Navi"
+zed_language = "navi"
+extensions = ["nv", "navi"]
+source = "extension"
+
+[navi_stream]
+name = "Navi Stream"
+zed_language = "navi_stream"
+extensions = ["nvs"]
+source = "extension"
+
+[ned]
+name = "OMNeT++ NED"
+zed_language = "ned"
+extensions = ["ned"]
+source = "extension"
+
+[netlinx]
+name = "NetLinx"
+zed_language = "netlinx"
+extensions = ["axs", "axi", "axb", "lib"]
+source = "extension"
+
+[nginx]
+name = "Nginx"
+zed_language = "nginx"
+extensions = ["nginx.conf"]
+source = "extension"
+
+[nickel]
+name = "Nickel"
+zed_language = "nickel"
+extensions = ["ncl"]
+source = "extension"
+
+[nim]
+name = "Nim"
+zed_language = "nim"
+extensions = ["nim", "nims"]
+source = "extension"
+
+[nim_format_string]
+name = "Nim Format String"
+zed_language = "nim_format_string"
+extensions = ["nim_format_string"]
+source = "extension"
+
+[nix]
+name = "Nix"
+zed_language = "nix"
+extensions = ["nix"]
+source = "extension"
+
+[noir]
+name = "Noir"
+zed_language = "noir"
+extensions = ["nr"]
+source = "extension"
+
+[numscript]
+name = "Numscript"
+zed_language = "numscript"
+extensions = ["numscript", "num"]
+source = "extension"
+
+[nunjucks]
+name = "Nunjucks"
+zed_language = "nunjucks"
+extensions = ["njk"]
+source = "extension"
+
+[nushell]
+name = "Nushell"
+zed_language = "nu"
+extensions = ["nu"]
+source = "extension"
+
+[oat]
+name = "Oat"
+zed_language = "oat"
+extensions = ["oat"]
+source = "extension"
+
+[objectscript]
+name = "Objectscript"
+zed_language = "objectscript"
+extensions = []
+source = "extension"
+
+[ocaml]
+name = "OCaml"
+zed_language = "ocaml"
+extensions = ["ml"]
+source = "extension"
+
+[ocaml_interface]
+name = "OCaml Interface"
+zed_language = "ocaml_interface"
+extensions = ["mli"]
+source = "extension"
+
+[ocamllex]
+name = "OCamllex"
+zed_language = "ocamllex"
+extensions = ["mll"]
+source = "extension"
+
+[odin]
+name = "Odin"
+zed_language = "odin"
+extensions = ["odin"]
+source = "extension"
+
+[openscad]
+name = "OpenSCAD"
+zed_language = "openscad"
+extensions = ["scad"]
+source = "extension"
+
+[org]
+name = "Org"
+zed_language = "org"
+extensions = ["org"]
+source = "extension"
+
+[p4]
+name = "P4 Language"
+zed_language = "p4"
+extensions = ["p4"]
+source = "extension"
+
+[pact]
+name = "Pact"
+zed_language = "pact"
+extensions = ["pact", "repl"]
+source = "extension"
+
+[pascal]
+name = "Pascal"
+zed_language = "pascal"
+extensions = ["pas", "pp", "p", "inc", "lpr", "dpr"]
+source = "extension"
+
+[pdxinfo]
+name = "Pdxinfo"
+zed_language = "pdxinfo"
+extensions = ["pdxinfo"]
+source = "extension"
+
+[perl]
+name = "Perl"
+zed_language = "perl"
+extensions = ["pl", "pm", "t"]
+source = "extension"
+
+[perm]
+name = "Perm"
+zed_language = "perm"
+extensions = ["perm"]
+source = "extension"
+
+[pest]
+name = "Pest"
+zed_language = "pest"
+extensions = ["pest"]
+source = "extension"
+
+[php]
+name = "PHP"
+zed_language = "php"
+extensions = ["php", "phtml"]
+source = "extension"
+
+[php_only]
+name = "php_only"
+zed_language = "php_only"
+extensions = []
+source = "extension"
+
+[phpdoc]
+name = "PHPDoc"
+zed_language = "phpdoc"
+extensions = []
+source = "extension"
+
+[pica200]
+name = "pica200"
+zed_language = "pica200"
+extensions = ["pica"]
+source = "extension"
+
+[pkl]
+name = "Pkl"
+zed_language = "pkl"
+extensions = ["pkl", "pcf"]
+source = "extension"
+
+[plantuml]
+name = "PlantUML"
+zed_language = "plantuml"
+extensions = ["wsd", "pu", "puml", "plantuml", "iuml"]
+source = "extension"
+
+[polar]
+name = "Polar"
+zed_language = "polar"
+extensions = ["polar"]
+source = "extension"
+
+[pony]
+name = "Pony"
+zed_language = "pony"
+extensions = ["pony"]
+source = "extension"
+
+[powershell]
+name = "PowerShell"
+zed_language = "powershell"
+extensions = ["ps1", "psm1"]
+source = "extension"
+
+[prisma]
+name = "Prisma"
+zed_language = "prisma"
+extensions = ["prisma"]
+source = "extension"
+
+[prolog]
+name = "Prolog"
+zed_language = "prolog"
+extensions = ["pro", "pl", "P"]
+source = "extension"
+
+[properties]
+name = "Properties"
+zed_language = "properties"
+extensions = ["properties"]
+source = "extension"
+
+[property_list]
+name = "Property List"
+zed_language = "property_list"
+extensions = []
+source = "extension"
+
+[protobuf]
+name = "Protobuf"
+zed_language = "proto"
+extensions = ["proto"]
+source = "extra"
+
+[psv]
+name = "Rainbow CSV (|)"
+zed_language = "psv"
+extensions = []
+source = "extension"
+
+[pug]
+name = "Pug"
+zed_language = "pug"
+extensions = ["pug"]
+source = "extension"
+
+[puppet]
+name = "Puppet"
+zed_language = "puppet"
+extensions = ["pp", "epp"]
+source = "extension"
+
+[purescript]
+name = "PureScript"
+zed_language = "purescript"
+extensions = ["purs"]
+source = "extension"
+
+[python]
+name = "Python"
+zed_language = "python"
+extensions = ["py", "pyi", "mpy"]
+source = "native"
+
+[qmljs]
+name = "Qmljs"
+zed_language = "qmljs"
+extensions = []
+source = "extension"
+
+[quakec]
+name = "QuakeC"
+zed_language = "quakec"
+extensions = ["qc"]
+source = "extension"
+
+[query]
+name = "Tree-sitter Query"
+zed_language = "query"
+extensions = ["scm"]
+source = "extension"
+
+[r]
+name = "R"
+zed_language = "r"
+extensions = ["R", "r"]
+source = "extension"
+
+[racket]
+name = "Racket"
+zed_language = "racket"
+extensions = ["rkt"]
+source = "extension"
+
+[rbs]
+name = "RBS"
+zed_language = "rbs"
+extensions = ["rbs"]
+source = "extension"
+
+[rcl]
+name = "RCL"
+zed_language = "rcl"
+extensions = ["rcl"]
+source = "extension"
+
+[reason]
+name = "Reason"
+zed_language = "reason"
+extensions = ["re"]
+source = "extension"
+
+[red]
+name = "Red"
+zed_language = "red"
+extensions = ["red", "reds"]
+source = "extension"
+
+[redscript]
+name = "REDscript"
+zed_language = "redscript"
+extensions = ["reds"]
+source = "extension"
+
+[regedit]
+name = "Regedit"
+zed_language = "regedit"
+extensions = ["reg"]
+source = "extension"
+
+[regex]
+name = "Regex"
+zed_language = "regex"
+extensions = []
+source = "native"
+
+[rego]
+name = "rego"
+zed_language = "rego"
+extensions = ["rego", "rq"]
+source = "extension"
+
+[requirements]
+name = "Python requirements"
+zed_language = "requirements"
+extensions = ["requirements.txt"]
+source = "extension"
+
+[rescript]
+name = "ReScript"
+zed_language = "rescript"
+extensions = ["res", "resi"]
+source = "extension"
+
+[rhai]
+name = "Rhai"
+zed_language = "rhai"
+extensions = ["rhai"]
+source = "extension"
+
+[risor]
+name = "Risor"
+zed_language = "risor"
+extensions = ["risor"]
+source = "extension"
+
+[robot]
+name = "Robot"
+zed_language = "robot"
+extensions = ["robot"]
+source = "extension"
+
+[roc]
+name = "Roc"
+zed_language = "roc"
+extensions = ["roc"]
+source = "extension"
+
+[roland]
+name = "Roland"
+zed_language = "roland"
+extensions = ["rol"]
+source = "extra"
+
+[ron]
+name = "RON"
+zed_language = "ron"
+extensions = ["ron"]
+source = "extension"
+
+[roto]
+name = "Roto"
+zed_language = "roto"
+extensions = ["roto"]
+source = "extension"
+
+[rpmspec]
+name = "RPM Spec"
+zed_language = "rpmspec"
+extensions = ["spec"]
+source = "extension"
+
+[rshtml]
+name = "RsHtml"
+zed_language = "rshtml"
+extensions = ["rs.html"]
+source = "extension"
+
+[rst]
+name = "reStructuredText"
+zed_language = "rst"
+extensions = ["rst"]
+source = "extension"
+
+[rstml]
+name = "RSTML"
+zed_language = "rstml"
+extensions = []
+source = "extension"
+
+[ruby]
+name = "Ruby"
+zed_language = "ruby"
+extensions = ["rb"]
+source = "extension"
+
+[rust]
+name = "Rust"
+zed_language = "rust"
+extensions = ["rs"]
+source = "native"
+
+[sage]
+name = "SageMath"
+zed_language = "sage"
+extensions = ["sage"]
+source = "extension"
+
+[sass]
+name = "SASS"
+zed_language = "sass"
+extensions = ["sass"]
+source = "extension"
+
+[scala]
+name = "Scala"
+zed_language = "scala"
+extensions = ["sc", "scala", "sbt", "mill"]
+source = "extension"
+
+[scheme]
+name = "Scheme"
+zed_language = "scheme"
+extensions = ["scm", "ss"]
+source = "extension"
+
+[scss]
+name = "SCSS"
+zed_language = "scss"
+extensions = ["scss"]
+source = "extension"
+
+[shell]
+name = "Shell"
+zed_language = "bash"
+extensions = ["sh", "bash", "zsh", "bashrc", "zshrc", "profile"]
+source = "native"
+
+[sieve]
+name = "Sieve"
+zed_language = "sieve"
+extensions = ["sieve", "sieveinterface"]
+source = "extension"
+
+[simula]
+name = "Simula"
+zed_language = "simula"
+extensions = ["sim"]
+source = "extension"
+
+[slang]
+name = "Slang"
+zed_language = "slang"
+extensions = ["slang"]
+source = "extension"
+
+[slim]
+name = "Slim"
+zed_language = "slim"
+extensions = ["slim", "html.slim"]
+source = "extension"
+
+[smalltalk]
+name = "Smalltalk"
+zed_language = "smalltalk"
+extensions = ["st"]
+source = "extra"
+
+[smithy]
+name = "Smithy"
+zed_language = "smithy"
+extensions = ["smithy"]
+source = "extension"
+
+[sml]
+name = "Standard ML"
+zed_language = "sml"
+extensions = ["sml", "sig", "fun"]
+source = "extension"
+
+[snakemake]
+name = "Snakemake"
+zed_language = "snakemake"
+extensions = ["Snakefile", "snakefile", "smk"]
+source = "extension"
+
+[solidity]
+name = "Solidity"
+zed_language = "solidity"
+extensions = ["sol"]
+source = "extension"
+
+[soma]
+name = "Soma"
+zed_language = "soma"
+extensions = ["soma"]
+source = "extension"
+
+[sourcepawn]
+name = "Sourcepawn"
+zed_language = "sourcepawn"
+extensions = ["sp"]
+source = "extension"
+
+[spicy]
+name = "Spicy"
+zed_language = "spicy"
+extensions = ["spicy", "evt", "hlt"]
+source = "extension"
+
+[spthy]
+name = "spthy"
+zed_language = "spthy"
+extensions = ["spthy"]
+source = "extension"
+
+[sql]
+name = "SQL"
+zed_language = "sql"
+extensions = ["sql"]
+source = "extension"
+
+[squirrel]
+name = "Squirrel"
+zed_language = "squirrel"
+extensions = ["nut"]
+source = "extension"
+
+[ssh_config]
+name = "SSH Config"
+zed_language = "ssh_config"
+extensions = ["config", "ssh_config"]
+source = "extension"
+
+[ssv]
+name = "Rainbow CSV (;)"
+zed_language = "ssv"
+extensions = []
+source = "extension"
+
+[stan]
+name = "Stan"
+zed_language = "stan"
+extensions = ["stan"]
+source = "extension"
+
+[starlark]
+name = "Starlark"
+zed_language = "starlark"
+extensions = ["bzl", "star", "BUILD", "bazelrc"]
+source = "extension"
+
+[strace]
+name = "Strace"
+zed_language = "strace"
+extensions = ["strace"]
+source = "extension"
+
+[structured_text]
+name = "Structured Text"
+zed_language = "structured_text"
+extensions = ["st", "stx"]
+source = "extension"
+
+[superhtml]
+name = "SuperHTML"
+zed_language = "superhtml"
+extensions = ["shtml"]
+source = "extension"
+
+[surrealql]
+name = "Surrealql"
+zed_language = "surrealql"
+extensions = []
+source = "extension"
+
+[svelte]
+name = "Svelte"
+zed_language = "svelte"
+extensions = ["svelte"]
+source = "extension"
+
+[sway]
+name = "Sway"
+zed_language = "sway"
+extensions = ["sw"]
+source = "extension"
+
+[swift]
+name = "Swift"
+zed_language = "swift"
+extensions = ["swift", "swiftinterface"]
+source = "extension"
+
+[systemrdl]
+name = "SystemRDL"
+zed_language = "systemrdl"
+extensions = ["rdl"]
+source = "extension"
+
+[tact]
+name = "Tact"
+zed_language = "tact"
+extensions = ["tact"]
+source = "extension"
+
+[tcl]
+name = "Tcl"
+zed_language = "tcl"
+extensions = ["tcl", "tm"]
+source = "extension"
+
+[templ]
+name = "Templ"
+zed_language = "templ"
+extensions = ["templ"]
+source = "extension"
+
+[tera]
+name = "Tera"
+zed_language = "tera"
+extensions = ["tera"]
+source = "extension"
+
+[terraform]
+name = "Terraform"
+zed_language = "hcl"
+extensions = ["hcl", "tf"]
+source = "extension"
+
+[textproto]
+name = "Textproto"
+zed_language = "textproto"
+extensions = ["textproto", "txtpb", "textpb", "pbtxt"]
+source = "extension"
+
+[thrift]
+name = "Thrift"
+zed_language = "thrift"
+extensions = ["thrift"]
+source = "extension"
+
+[tlb]
+name = "TL-B"
+zed_language = "tlb"
+extensions = ["tlb"]
+source = "extension"
+
+[tmux]
+name = "tmux"
+zed_language = "tmux"
+extensions = ["tmux", "tmux.conf"]
+source = "extension"
+
+[todotxt]
+name = "Todotxt"
+zed_language = "todotxt"
+extensions = []
+source = "extension"
+
+[tolk]
+name = "Tolk"
+zed_language = "tolk"
+extensions = ["tolk"]
+source = "extension"
+
+[toml]
+name = "TOML"
+zed_language = "toml"
+extensions = ["toml"]
+source = "extension"
+
+[toon]
+name = "TOON"
+zed_language = "toon"
+extensions = ["toon"]
+source = "extension"
+
+[tql]
+name = "TQL"
+zed_language = "tql"
+extensions = ["tql"]
+source = "extension"
+
+[tree_sitter_logcat]
+name = "Tree Sitter Logcat"
+zed_language = "tree_sitter_logcat"
+extensions = []
+source = "extension"
+
+[tsv]
+name = "TSV"
+zed_language = "tsv"
+extensions = ["tsv"]
+source = "extension"
+
+[tsx]
+name = "TSX"
+zed_language = "tsx"
+extensions = ["tsx"]
+source = "native"
+
+[turtle]
+name = "Turtle"
+zed_language = "turtle"
+extensions = ["ttl", "turtle"]
+source = "extension"
+
+[twig]
+name = "Twig"
+zed_language = "twig"
+extensions = ["html.twig", "twig", "twig.html"]
+source = "extension"
+
+[txtar]
+name = "Txtar"
+zed_language = "txtar"
+extensions = ["txtar"]
+source = "extension"
+
+[typescript]
+name = "TypeScript"
+zed_language = "typescript"
+extensions = ["ts", "mts", "cts"]
+source = "native"
+
+[typespec]
+name = "Typespec"
+zed_language = "typespec"
+extensions = ["tsp", "typespec"]
+source = "extension"
+
+[typst]
+name = "Typst"
+zed_language = "typst"
+extensions = ["typ", "typst"]
+source = "extension"
+
+[ucode]
+name = "ucode"
+zed_language = "ucode"
+extensions = ["uc"]
+source = "extension"
+
+[uiua]
+name = "Uiua"
+zed_language = "uiua"
+extensions = ["ua"]
+source = "extension"
+
+[umka]
+name = "Umka"
+zed_language = "umka"
+extensions = ["um"]
+source = "extension"
+
+[ungrammar]
+name = "Ungrammar"
+zed_language = "ungrammar"
+extensions = ["ungram"]
+source = "extension"
+
+[unison]
+name = "Unison"
+zed_language = "unison"
+extensions = ["u"]
+source = "extension"
+
+[v]
+name = "V"
+zed_language = "v"
+extensions = ["v", "vsh", "vv"]
+source = "extension"
+
+[vala]
+name = "Vala"
+zed_language = "vala"
+extensions = ["vala", "vapi"]
+source = "extension"
+
+[vale]
+name = "Vale"
+zed_language = "vale"
+extensions = ["vale"]
+source = "extra"
+
+[vcard]
+name = "vCard"
+zed_language = "vcard"
+extensions = ["vcf"]
+source = "extension"
+
+[vento]
+name = "Vento"
+zed_language = "vento"
+extensions = ["vto", "vento"]
+source = "extension"
+
+[verilog]
+name = "Verilog"
+zed_language = "systemverilog"
+extensions = ["v", "vh", "sv", "svh"]
+source = "extension"
+
+[vhdl]
+name = "VHDL"
+zed_language = "vhdl"
+extensions = ["vhd", "vhdl"]
+source = "extension"
+
+[vhs]
+name = "VHS"
+zed_language = "vhs"
+extensions = ["tape"]
+source = "extension"
+
+[viewtree]
+name = "ViewTree ($mol)"
+zed_language = "viewtree"
+extensions = ["view.tree"]
+source = "extension"
+
+[vrl]
+name = "VRL"
+zed_language = "vrl"
+extensions = ["vrl"]
+source = "extension"
+
+[vue]
+name = "Vue"
+zed_language = "vue"
+extensions = ["vue"]
+source = "extension"
+
+[vyper]
+name = "Vyper"
+zed_language = "vyper"
+extensions = ["vy"]
+source = "extra"
+
+[wasm]
+name = "WebAssembly"
+zed_language = "wat"
+extensions = ["wat", "wast"]
+source = "extension"
+
+[wdl]
+name = "WDL"
+zed_language = "wdl"
+extensions = ["wdl"]
+source = "extension"
+
+[webidl]
+name = "WebIDL"
+zed_language = "webidl"
+extensions = ["webidl"]
+source = "extension"
+
+[wesl]
+name = "Wesl"
+zed_language = "wesl"
+extensions = []
+source = "extension"
+
+[wgsl]
+name = "WGSL"
+zed_language = "wgsl"
+extensions = ["wgsl"]
+source = "extension"
+
+[whkd]
+name = "whkd"
+zed_language = "whkd"
+extensions = ["whkdrc"]
+source = "extension"
+
+[wikitext]
+name = "Wikitext"
+zed_language = "wikitext"
+extensions = ["wikimedia", "mediawiki", "wikitext"]
+source = "extension"
+
+[wit]
+name = "WIT"
+zed_language = "wit"
+extensions = ["wit"]
+source = "extension"
+
+[wow_toc]
+name = "WoW TOC"
+zed_language = "wow_toc"
+extensions = ["toc"]
+source = "extension"
+
+[wren]
+name = "Wren"
+zed_language = "wren"
+extensions = ["wren"]
+source = "extension"
+
+[wxml]
+name = "WeiXin Markup Language"
+zed_language = "wxml"
+extensions = ["wxml"]
+source = "extension"
+
+[x12]
+name = "X12"
+zed_language = "x12"
+extensions = []
+source = "extension"
+
+[xml]
+name = "XML"
+zed_language = "xml"
+extensions = ["xml"]
+source = "extension"
+
+[xonsh]
+name = "Xonsh"
+zed_language = "xonsh"
+extensions = ["xsh", "xonshrc"]
+source = "extension"
+
+[yaml]
+name = "YAML"
+zed_language = "yaml"
+extensions = ["yaml", "yml"]
+source = "native"
+
+[yang]
+name = "YANG"
+zed_language = "yang"
+extensions = ["yang"]
+source = "extension"
+
+[yara]
+name = "Yara"
+zed_language = "yara"
+extensions = ["yar", "yara"]
+source = "extension"
+
+[yarn_spinner]
+name = "Yarn Spinner"
+zed_language = "yarn_spinner"
+extensions = ["yarn"]
+source = "extension"
+
+[yul]
+name = "Yul"
+zed_language = "yul"
+extensions = ["yul"]
+source = "extension"
+
+[zed_keybind_context]
+name = "Zed Keybind Context"
+zed_language = "zed-keybind-context"
+extensions = []
+source = "native"
+
+[zig]
+name = "Zig"
+zed_language = "zig"
+extensions = ["zig", "zon"]
+source = "extension"
+
+[ziggy]
+name = "ziggy"
+zed_language = "ziggy"
+extensions = ["ziggy", "zgy"]
+source = "extension"
+
+[ziggy_schema]
+name = "ziggy-schema"
+zed_language = "ziggy_schema"
+extensions = ["ziggy-schema", "zgy-schema"]
+source = "extension"
+
+[zokrates]
+name = "ZoKrates"
+zed_language = "zokrates"
+extensions = ["zok"]
+source = "extension"

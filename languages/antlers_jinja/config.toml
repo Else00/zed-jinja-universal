@@ -1,0 +1,4 @@
+name = "Statamic Antlers-Jinja"
+grammar = "jinja2"
+path_suffixes = ["antlers.html.jinja", "antlers.html.jinja2", "antlers.html.j2"]
+block_comment = ["{#", "#}"]

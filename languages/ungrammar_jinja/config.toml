@@ -1,0 +1,4 @@
+name = "Ungrammar-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ungram.jinja", "ungram.jinja2", "ungram.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Regedit-Jinja"
+grammar = "jinja2"
+path_suffixes = ["reg.jinja", "reg.jinja2", "reg.j2"]
+block_comment = ["{#", "#}"]

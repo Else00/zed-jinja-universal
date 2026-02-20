@@ -1,0 +1,4 @@
+name = "COBOL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cbl.jinja", "cbl.jinja2", "cbl.j2", "cob.jinja", "cob.jinja2", "cob.j2"]
+block_comment = ["{#", "#}"]

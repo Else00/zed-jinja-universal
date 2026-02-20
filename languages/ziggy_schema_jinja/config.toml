@@ -1,0 +1,4 @@
+name = "ziggy-schema-Jinja"
+grammar = "jinja2"
+path_suffixes = ["zgy-schema.jinja", "zgy-schema.jinja2", "zgy-schema.j2", "ziggy-schema.jinja", "ziggy-schema.jinja2", "ziggy-schema.j2"]
+block_comment = ["{#", "#}"]

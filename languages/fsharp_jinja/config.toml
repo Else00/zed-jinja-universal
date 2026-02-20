@@ -1,0 +1,4 @@
+name = "F#-Jinja"
+grammar = "jinja2"
+path_suffixes = ["fs.jinja", "fs.jinja2", "fs.j2", "fsi.jinja", "fsi.jinja2", "fsi.j2", "fsscript.jinja", "fsscript.jinja2", "fsscript.j2", "fsx.jinja", "fsx.jinja2", "fsx.j2"]
+block_comment = ["{#", "#}"]

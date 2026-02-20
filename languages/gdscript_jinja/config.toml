@@ -1,0 +1,4 @@
+name = "GDScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gd.jinja", "gd.jinja2", "gd.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "Koto-Jinja"
+grammar = "jinja2"
+path_suffixes = ["koto.jinja", "koto.jinja2", "koto.j2"]
+block_comment = ["{#", "#}"]

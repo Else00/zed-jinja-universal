@@ -1,0 +1,20 @@
+// {{ description }}
+
+import Foundation
+{% for imp in imports %}
+import {{ imp }}
+{% endfor %}
+
+struct {{ struct_name }} {
+    {% for prop in properties %}
+    var {{ prop.name }}: {{ prop.type }}
+    {% endfor %}
+}
+
+func {{ function_name }}() -> {{ struct_name }} {
+    {% if use_default %}
+    return {{ struct_name }}({% for prop in properties %}{{ prop.name }}: {{ prop.default }}{{ ", " if not loop.last }}{% endfor %})
+    {% else %}
+    fatalError("Not implemented")
+    {% endif %}
+}

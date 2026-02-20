@@ -1,0 +1,4 @@
+name = "Assembly-Jinja"
+grammar = "jinja2"
+path_suffixes = ["S.jinja", "S.jinja2", "S.j2", "asm.jinja", "asm.jinja2", "asm.j2", "s.jinja", "s.jinja2", "s.j2"]
+block_comment = ["{#", "#}"]

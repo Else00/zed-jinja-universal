@@ -1,0 +1,4 @@
+name = "CoffeeScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["coffee.jinja", "coffee.jinja2", "coffee.j2"]
+block_comment = ["{#", "#}"]

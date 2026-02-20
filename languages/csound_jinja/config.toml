@@ -1,0 +1,4 @@
+name = "Csound-Jinja"
+grammar = "jinja2"
+path_suffixes = ["csd.jinja", "csd.jinja2", "csd.j2", "orc.jinja", "orc.jinja2", "orc.j2", "sco.jinja", "sco.jinja2", "sco.j2", "udo.jinja", "udo.jinja2", "udo.j2"]
+block_comment = ["{#", "#}"]

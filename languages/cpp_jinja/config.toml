@@ -1,0 +1,4 @@
+name = "C++-Jinja"
+grammar = "jinja2"
+path_suffixes = ["C.jinja", "C.jinja2", "C.j2", "H.jinja", "H.jinja2", "H.j2", "c++.jinja", "c++.jinja2", "c++.j2", "cc.jinja", "cc.jinja2", "cc.j2", "cpp.jinja", "cpp.jinja2", "cpp.j2", "cu.jinja", "cu.jinja2", "cu.j2", "cuh.jinja", "cuh.jinja2", "cuh.j2", "cxx.jinja", "cxx.jinja2", "cxx.j2", "h.jinja", "h.jinja2", "h.j2", "h++.jinja", "h++.jinja2", "h++.j2", "hh.jinja", "hh.jinja2", "hh.j2", "hpp.jinja", "hpp.jinja2", "hpp.j2", "hxx.jinja", "hxx.jinja2", "hxx.j2", "inl.jinja", "inl.jinja2", "inl.j2", "ino.jinja", "ino.jinja2", "ino.j2", "ipp.jinja", "ipp.jinja2", "ipp.j2", "ixx.jinja", "ixx.jinja2", "ixx.j2"]
+block_comment = ["{#", "#}"]

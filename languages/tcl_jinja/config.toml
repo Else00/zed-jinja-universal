@@ -1,0 +1,4 @@
+name = "Tcl-Jinja"
+grammar = "jinja2"
+path_suffixes = ["tcl.jinja", "tcl.jinja2", "tcl.j2", "tm.jinja", "tm.jinja2", "tm.j2"]
+block_comment = ["{#", "#}"]

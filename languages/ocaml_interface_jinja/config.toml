@@ -1,0 +1,4 @@
+name = "OCaml Interface-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mli.jinja", "mli.jinja2", "mli.j2"]
+block_comment = ["{#", "#}"]

@@ -1,0 +1,4 @@
+name = "JavaScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cjs.jinja", "cjs.jinja2", "cjs.j2", "js.jinja", "js.jinja2", "js.j2", "jsx.jinja", "jsx.jinja2", "jsx.j2", "mjs.jinja", "mjs.jinja2", "mjs.j2"]
+block_comment = ["{#", "#}"]

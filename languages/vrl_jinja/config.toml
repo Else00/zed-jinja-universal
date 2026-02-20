@@ -1,0 +1,4 @@
+name = "VRL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["vrl.jinja", "vrl.jinja2", "vrl.j2"]
+block_comment = ["{#", "#}"]

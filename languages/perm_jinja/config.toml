@@ -1,0 +1,4 @@
+name = "Perm-Jinja"
+grammar = "jinja2"
+path_suffixes = ["perm.jinja", "perm.jinja2", "perm.j2"]
+block_comment = ["{#", "#}"]

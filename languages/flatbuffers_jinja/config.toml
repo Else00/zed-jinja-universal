@@ -1,0 +1,4 @@
+name = "FlatBuffers-Jinja"
+grammar = "jinja2"
+path_suffixes = ["fbs.jinja", "fbs.jinja2", "fbs.j2"]
+block_comment = ["{#", "#}"]

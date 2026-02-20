@@ -1,0 +1,4 @@
+name = "JSON5-Jinja"
+grammar = "jinja2"
+path_suffixes = ["json5.jinja", "json5.jinja2", "json5.j2"]
+block_comment = ["{#", "#}"]

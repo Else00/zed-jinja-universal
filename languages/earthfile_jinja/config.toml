@@ -1,0 +1,4 @@
+name = "Earthfile-Jinja"
+grammar = "jinja2"
+path_suffixes = ["Earthfile.jinja", "Earthfile.jinja2", "Earthfile.j2"]
+block_comment = ["{#", "#}"]

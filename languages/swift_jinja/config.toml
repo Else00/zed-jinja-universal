@@ -1,0 +1,4 @@
+name = "Swift-Jinja"
+grammar = "jinja2"
+path_suffixes = ["swift.jinja", "swift.jinja2", "swift.j2", "swiftinterface.jinja", "swiftinterface.jinja2", "swiftinterface.j2"]
+block_comment = ["{#", "#}"]

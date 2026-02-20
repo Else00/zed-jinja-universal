@@ -1,0 +1,4 @@
+name = "Helm-Jinja"
+grammar = "jinja2"
+path_suffixes = ["helmignore.jinja", "helmignore.jinja2", "helmignore.j2"]
+block_comment = ["{#", "#}"]

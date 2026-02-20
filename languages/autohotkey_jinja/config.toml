@@ -1,0 +1,4 @@
+name = "AutoHotkey-Jinja"
+grammar = "jinja2"
+path_suffixes = ["ahk.jinja", "ahk.jinja2", "ahk.j2"]
+block_comment = ["{#", "#}"]

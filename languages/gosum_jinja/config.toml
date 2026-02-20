@@ -1,0 +1,4 @@
+name = "Go Sum-Jinja"
+grammar = "jinja2"
+path_suffixes = ["go.sum.jinja", "go.sum.jinja2", "go.sum.j2"]
+block_comment = ["{#", "#}"]

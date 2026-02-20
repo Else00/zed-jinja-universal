@@ -1,0 +1,23 @@
+# {{ description }}
+
+{% for type in types %}
+type {{ type.name }} {
+    {% for field in type.fields %}
+    {{ field.name }}: {{ field.type }}{% if field.required %}!{% endif %}
+    {% endfor %}
+}
+{% endfor %}
+
+type Query {
+    {% for query in queries %}
+    {{ query.name }}({% for arg in query.args %}{{ arg.name }}: {{ arg.type }}{{ ", " if not loop.last }}{% endfor %}): {{ query.return_type }}
+    {% endfor %}
+}
+
+{% if use_mutations %}
+type Mutation {
+    {% for mutation in mutations %}
+    {{ mutation.name }}({% for arg in mutation.args %}{{ arg.name }}: {{ arg.type }}{{ ", " if not loop.last }}{% endfor %}): {{ mutation.return_type }}
+    {% endfor %}
+}
+{% endif %}

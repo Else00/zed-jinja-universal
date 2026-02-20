@@ -1,0 +1,4 @@
+name = "GritQL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["grit.jinja", "grit.jinja2", "grit.j2"]
+block_comment = ["{#", "#}"]

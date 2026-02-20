@@ -1,0 +1,4 @@
+name = "WebIDL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["webidl.jinja", "webidl.jinja2", "webidl.j2"]
+block_comment = ["{#", "#}"]

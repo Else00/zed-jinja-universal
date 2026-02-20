@@ -1,0 +1,4 @@
+name = "SystemRDL-Jinja"
+grammar = "jinja2"
+path_suffixes = ["rdl.jinja", "rdl.jinja2", "rdl.j2"]
+block_comment = ["{#", "#}"]

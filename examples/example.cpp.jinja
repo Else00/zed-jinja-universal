@@ -1,0 +1,21 @@
+// {{ description }}
+
+#include <iostream>
+{% for header in headers %}
+#include <{{ header }}>
+{% endfor %}
+
+{% if use_namespace %}
+namespace {{ namespace_name }} {
+{% endif %}
+
+class {{ class_name }} {
+public:
+    {% for method in methods %}
+    {{ method.return_type }} {{ method.name }}();
+    {% endfor %}
+};
+
+{% if use_namespace %}
+} // namespace {{ namespace_name }}
+{% endif %}

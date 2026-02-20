@@ -1,0 +1,4 @@
+name = "Cypher-Jinja"
+grammar = "jinja2"
+path_suffixes = ["cql.jinja", "cql.jinja2", "cql.j2", "cyp.jinja", "cyp.jinja2", "cyp.j2", "cypher.jinja", "cypher.jinja2", "cypher.j2"]
+block_comment = ["{#", "#}"]

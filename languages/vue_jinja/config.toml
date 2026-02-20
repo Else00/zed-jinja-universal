@@ -1,0 +1,4 @@
+name = "Vue-Jinja"
+grammar = "jinja2"
+path_suffixes = ["vue.jinja", "vue.jinja2", "vue.j2"]
+block_comment = ["{#", "#}"]

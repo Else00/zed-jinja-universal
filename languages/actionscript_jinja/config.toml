@@ -1,0 +1,4 @@
+name = "ActionScript-Jinja"
+grammar = "jinja2"
+path_suffixes = ["as.jinja", "as.jinja2", "as.j2"]
+block_comment = ["{#", "#}"]

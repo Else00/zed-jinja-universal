@@ -1,0 +1,4 @@
+name = "mcfunction-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mcfunction.jinja", "mcfunction.jinja2", "mcfunction.j2"]
+block_comment = ["{#", "#}"]

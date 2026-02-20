@@ -1,0 +1,4 @@
+name = "GreyCat-Jinja"
+grammar = "jinja2"
+path_suffixes = ["gcl.jinja", "gcl.jinja2", "gcl.j2"]
+block_comment = ["{#", "#}"]

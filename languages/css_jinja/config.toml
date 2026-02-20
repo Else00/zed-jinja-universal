@@ -1,0 +1,4 @@
+name = "CSS-Jinja"
+grammar = "jinja2"
+path_suffixes = ["css.jinja", "css.jinja2", "css.j2", "pcss.jinja", "pcss.jinja2", "pcss.j2", "postcss.jinja", "postcss.jinja2", "postcss.j2"]
+block_comment = ["{#", "#}"]

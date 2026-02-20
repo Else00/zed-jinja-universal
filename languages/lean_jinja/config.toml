@@ -1,0 +1,4 @@
+name = "Lean-Jinja"
+grammar = "jinja2"
+path_suffixes = ["lean.jinja", "lean.jinja2", "lean.j2"]
+block_comment = ["{#", "#}"]

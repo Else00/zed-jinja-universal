@@ -1,0 +1,4 @@
+name = "SpiceDB-Jinja"
+grammar = "jinja2"
+path_suffixes = ["zed.jinja", "zed.jinja2", "zed.j2"]
+block_comment = ["{#", "#}"]

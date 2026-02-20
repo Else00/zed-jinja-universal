@@ -1,0 +1,4 @@
+name = "Git Commit-Jinja"
+grammar = "jinja2"
+path_suffixes = ["COMMIT_EDITMSG.jinja", "COMMIT_EDITMSG.jinja2", "COMMIT_EDITMSG.j2", "EDIT_DESCRIPTION.jinja", "EDIT_DESCRIPTION.jinja2", "EDIT_DESCRIPTION.j2", "MERGE_MSG.jinja", "MERGE_MSG.jinja2", "MERGE_MSG.j2", "NOTES_EDITMSG.jinja", "NOTES_EDITMSG.jinja2", "NOTES_EDITMSG.j2", "TAG_EDITMSG.jinja", "TAG_EDITMSG.jinja2", "TAG_EDITMSG.j2"]
+block_comment = ["{#", "#}"]

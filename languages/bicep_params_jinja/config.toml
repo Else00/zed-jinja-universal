@@ -1,0 +1,4 @@
+name = "Bicep Parameters-Jinja"
+grammar = "jinja2"
+path_suffixes = ["bicepparam.jinja", "bicepparam.jinja2", "bicepparam.j2"]
+block_comment = ["{#", "#}"]

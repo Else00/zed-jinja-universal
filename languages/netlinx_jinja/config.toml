@@ -1,0 +1,4 @@
+name = "NetLinx-Jinja"
+grammar = "jinja2"
+path_suffixes = ["axb.jinja", "axb.jinja2", "axb.j2", "axi.jinja", "axi.jinja2", "axi.j2", "axs.jinja", "axs.jinja2", "axs.j2", "lib.jinja", "lib.jinja2", "lib.j2"]
+block_comment = ["{#", "#}"]

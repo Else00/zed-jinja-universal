@@ -1,0 +1,4 @@
+name = "Go Mod-Jinja"
+grammar = "jinja2"
+path_suffixes = ["mod.jinja", "mod.jinja2", "mod.j2"]
+block_comment = ["{#", "#}"]

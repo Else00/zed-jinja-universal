@@ -1,0 +1,4 @@
+name = "OpenSCAD-Jinja"
+grammar = "jinja2"
+path_suffixes = ["scad.jinja", "scad.jinja2", "scad.j2"]
+block_comment = ["{#", "#}"]
